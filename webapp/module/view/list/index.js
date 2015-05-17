@@ -32,6 +32,10 @@ define('', '', function(require) {
 			t.$el.find(".js-list-area").append(_html);
 			Jser.loadimages(t.$el.find(".js-list-area"));
 			t.setShare();
+            Jser.getJSON("http://lama.piapiapiapia.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
+                // setwxconfig(data);
+                t.$el.find('.strategy-share').html(data.data.detail.fcontent);
+            })
 		},
 		goback: function() {
 			var t = this;
@@ -46,7 +50,7 @@ define('', '', function(require) {
 			var fid = t.model.get("pars")["fid"];
 			var shareTitle = Jser.getItem("fdescribe" + fid) || "辣妈科技";
 			var descContent = Jser.getItem("fid" + fid);
-			var url = 'http://lama.piapiapiapia.com/mamago/index.php/weixin/productShare?fid=' + fid + '&shareUserId=' + Jser.getItem("user_id") + '&tpid=4&topic=' + shareTitle + '&ftitle=' + descContent + '&from=singlemessage&isappinstalled=1';
+			var url = 'http://lama.piapiapiapia.com/webapp/#list/share/fid:'+ fid +'?share=true';
 			Jser.setshare({
 				lineLink: url,
 				shareTitle: shareTitle,

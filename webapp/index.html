@@ -27,8 +27,9 @@
             }
          }
      }
-
-     if(!(tourist || logged))location.href="/webapp/tourist.html";
+     url = window.location.href;
+     var isa_share = !!(url.match(/fid:[\d+]/) && url.match(/\?[share=true]/));
+     if(!(tourist || logged || isa_share))location.href="/webapp/tourist.html";
      seajs.config({
             base: '/webapp/module',
             alias: {
@@ -169,9 +170,9 @@
                  ]
                 });
                 weixin6();
-                // wx.error(function(res) {
-                //    loadwxconfig();
-                // });
+                wx.error(function(res) {
+//                    loadwxconfig();
+                });
             }
     }
     </script>

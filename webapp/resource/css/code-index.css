@@ -2519,20 +2519,112 @@ iframe{
   display: block;
 }
 
+.wrapper-share{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #ffffff
+}
+
+.strategy-share{
+    width:96%;
+    margin:0 auto;
+}
+
+.wrapper-share p{
+    line-height: 1.75em;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.wrapper-share img{
+  width: 100%;
+  height: auto !important;
+  display:block;
+}
+.share-logo {
+  background-color: #f5f3f4;
+  padding-top: 20px;
+}
+
+.share-logo div{
+  width: 57.6vw;
+  height: 28.8vw;
+  margin: 20px auto 18vw;
+  background: url('../images/share_logo.png') center center no-repeat;
+  background-size: contain;
+}
+
+.header_share{
+    background-color: #2b312e;
+}
+
+.wrapper-share .wrapper-header{
+  width: 100%;
+  height: 53px;
+  text-align: center;
+  line-height: 54px;
+  margin: 0;
+  padding: 7px 0;
+  background-color: #ffffff;
+}
+
+.lamashoudai{
+  background: url('../images/lamashoudai.png') center center no-repeat;
+  background-size: contain;
+  height: 39px;
+  width: 39px;
+  margin: 0 0 0 15px;
+}
+
+.lamadownload{
+  width: 100vw;
+  height: 18vw;
+  position: fixed;
+  color: #ffffff;
+  bottom: 0;
+}
+
+.lamadownload .download-logo{
+  background: url('../images/lamashoudai.png') center center no-repeat;
+  background-size: contain;
+  height: 13vw;
+  width: 13vw;
+  display: inline-block;
+  margin: 2.5vw;
+  float:left;
+}
 
 
+.bg-transparent{
+   width:100%;
+   height:100%;
+   background: url('../images/downloadbg.png');
+}
 
+.lamadownload p{
+  display: inline-block;
+  margin: 0;
+  line-height: 6.5vw;
+}
 
+.just-download{
+  display: inline-block;
+  background: url('../images/justdownload.png') center center no-repeat;
+  height: 9vw;
+  width: 22vw;
+  background-size: contain;
+  float: right;
+  margin: 4.5vw 2.6vw 4.5vw 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.lamatext{
+  height: 13vw;
+  width: 11em;
+  display: inline-block;
+  margin: 2.5vw 0 2.5vw 0;
+  float: left;
+}

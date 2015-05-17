@@ -54,7 +54,7 @@ define('', '', function(require) {
 				imgUrl: "",
 				lineLink: url,
 				shareTitle: shareTitle, //"妈咪口袋" + Jser.getItem("fid" + fid),
-				descContent: descContent,
+				descContent: descContent
 			});
 		},
 		doShare: function() {
