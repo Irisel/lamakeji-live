@@ -1,0 +1,38 @@
+<div class="header">
+	go
+	<a href="#add/index" class="hd-right hd-btn"><i class="add-icon"></i></a>
+</div>
+<div class="go-tab">
+    <a class="tab">
+        <div class="active-tab">心愿单</div>
+    </a>
+    <a href="#go/guanzhu" class="tab">
+        <div>关注</div>
+    </a>
+</div>
+<div class="first-wrapper go-wrapper">
+<ul class="go-list js-go-list">
+	<%_.each(data,function(item){%>
+	<%if(item.father_id=="0"){%>
+		<li data-is_recommend="<%=item.is_recommend%>">
+			<a href="#golist/index/fid:<%=item.fid%>">
+				<%=Jser.setItem("fid"+item.fid,item.fname)%>
+                <div>
+                <%if(item.picture){%>
+                <img src="<%=item.picture%>">
+                <%}%>
+                <%if(!item.picture){%>
+                <img src="/webapp/resource/images/default.png">
+                <%}%>
+                </div>
+				<p class="p1"><%=item.fname%></p>
+				<p class="p2"><%=item.pnum%>件商品</p>
+				<div class="go-right"><i class="icon icon-arrows-left"></i></div>
+			</a>
+			<div class="go-remove js-golist-remove" data-fid="<%=item.fid%>">删除</div>
+		</li>
+	<%}%>
+	<%})%>	
+</ul>
+<!--a href="#add/index" class="go-new js-go-new">新建go单</a-->
+</div>

@@ -1,0 +1,15 @@
+<div class="header">	
+	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
+	<%=Jser.getItem("fid"+data.fid)%>
+	<a href="javascript:;" class="btn-share js-share" data-share=""><i class="icon"></i></a>
+</div>
+<div class="list-wrapper">	
+	<%if(data.fdata&&!data.guanzhu&&data.fdata.length>0){%>
+		<div class="list-top">
+			<img src="<%=data.fdata[0].finnerpicture%>" />
+		</div>
+	<%}%>
+	<ul class="list-area js-list-area clean">
+		
+	</ul>
+</div>

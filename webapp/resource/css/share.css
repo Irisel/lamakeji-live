@@ -1,0 +1,145 @@
+* {
+  /*启用盒模型*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+html{
+  height:100%;
+  /*禁止当手机由竖屏转向横屏的时内容中的文字自动调整大小*/
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust:100%;
+  /*Mobile上点击链接高亮的时候设置颜色为透明*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*在IE10之上版本，不允许默认的touch行为*/
+  -ms-touch-action: none;
+}
+body{
+  height:100%;
+  background-color: #F06068;
+  /*手机字体*/
+  font-family:DroidSansFallback,"Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+a {
+  text-decoration:none;
+  -webkit-user-select: none;
+  user-select: none;
+  border:none;
+  outline:0 none;
+  outline-style:none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+em{font-style: normal;}
+img{
+  border:none;
+  vertical-align:top;
+}
+ul,ol{
+  list-style-type:none;
+}
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+textarea{
+  background:transparent;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  padding:0;
+}
+/*常用属性*/
+.showInlineBlock{
+  display: inline-block;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clean:before,.clean:after{
+  content:" ";
+  display:table;
+}
+.clean:after{
+  clear:both;
+}
+.flex-equal, .flex-center, .justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-equal li {
+  -moz-box-flex:1; /* Firefox */
+  -webkit-box-flex: 1; /* Safari 和 Chrome */
+  -ms-flex: 1;/* IE 9 */
+  -webkit-flex: 1;/* Safari */
+  flex: 1;
+}
+.cleanborder:{
+  border:none;
+}
+.wrap{  
+  margin:0 auto;  
+  width: 320px;
+  -webkit-overflow-scrolling:touch;
+  overflow-x:hidden; 
+  position: relative;
+}
+.wrap-hd{
+  background:url(../images/share-hd.png) 0 0 no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 205px;
+}
+.wrap-content{
+  height:800px;
+  width: 100%;
+  background:url(../images/share-content.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+.shopping{
+  height: 329px;
+  width: 100%;
+}
+.wrapper-index{
+  width: 294px;
+  height: 300px;
+  margin:-10px auto;
+  background-color: #F0F0F0;
+}
+
+
+
+
+

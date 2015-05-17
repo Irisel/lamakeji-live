@@ -1,0 +1,24 @@
+{
+    "status": "success",  
+    "code":"0",
+    "totalPage":"2",  
+    "data":{
+        "totle": "3",
+		"list": [{
+			"img": "resource/images/pic1.png",
+			"link": "#list/index",
+			"num": "1200",
+			"txt": "献给萌萌的高富帅"
+		}, {
+			"img": "resource/images/pic2.png",
+			"link": "#list/index",
+			"num": "100",
+			"txt": "高大上的欧美风"
+		}, {
+			"img": "resource/images/pic3.png",
+			"link": "#list/index",
+			"num": "10",
+			"txt": "白雪公主的礼包"
+		}]		
+    }
+}

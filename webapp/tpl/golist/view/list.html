@@ -1,0 +1,9 @@
+<%_.each(data,function(item){%>
+	<li>
+		<a href="#shangpin/index/pid:<%=item.pid%>" data-pid="<%=item.pid%>">
+			<img src="resource/images/loadimg.png" data-src="<%=Jser.prefixImg(item.picture)%>">			
+			<p class="word"><%=item.pname%></p>
+			<p>￥<%=item.price%></p>
+		</a>			
+	</li>		
+<%})%>

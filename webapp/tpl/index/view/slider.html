@@ -1,0 +1,18 @@
+<div class="slider-box">
+    <ul class="slider-list">
+        <%_.each(data,function(item){%>
+            <li>
+                <a href="javascript:;" data-id="<%=item.id%>" data-cdescribe="<%=item.cdescribe%>">
+                    <img src="resource/images/loadimg.png" data-src="<%=ST.PATH.AJAXIMG+item.cpicture%>" alt=""/>
+                </a>
+            </li>
+        <%})%>
+    </ul>
+    <div class="slider-point">
+        <ul id="js-index-sliderIdx">
+            <%_.each(data,function(item,i){%>
+               <li class="<%=(i==0?"on":"")%>"></li>
+            <%})%>                         
+        </ul>
+    </div>
+</div>

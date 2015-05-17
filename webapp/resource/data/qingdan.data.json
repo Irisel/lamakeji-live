@@ -1,0 +1,33 @@
+{
+    "status": "success", 
+    "code":"0",
+    "totalPage":"2",  
+    "data":{
+        "totle": "3",
+        "type1":["3","3周"],
+        "type2":["6","6周"],       
+        "slide":{
+        	"img":"resource/images/banner1.png",
+        	"txt":"您已经怀孕10周，手袋为您整理了一份贴"
+        },
+		"list": [{
+			"img": "resource/images/pic1.png",
+			"checked":"1",
+			"link": "javascript:;",
+			"title": "1200",
+			"lable": "献给萌萌的高富帅"
+		}, {
+			"img": "resource/images/pic2.png",
+			"link": "javascript:;",
+			"checked":"0",
+			"title": "测试",
+			"lable": "这是个测试"
+		}, {
+			"img": "resource/images/pic3.png",
+			"checked":"0",
+			"link": "javascript:;",
+			"title": "高大上的欧美风",
+			"lable": "如何选购防辐射服，什么情况下 不需要穿什么情况下需要穿等小 知识.不需要穿什么情况下需要穿等小.."
+		}]			
+    }
+}

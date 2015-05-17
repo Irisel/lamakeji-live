@@ -1,0 +1,16 @@
+<div class="header">	
+	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
+	<%=Jser.getItem("fid"+data.fid)%>
+	<%if(data.length!=0){%>
+	<a href="javascript:;" class="btn-share js-share"><i class="icon"></i></a>
+	<%}%>
+</div>
+<div class="list-wrapper">	
+	<%if(data.length==0){%>
+		<p class="emptyp1">go单里面还没有商品哦，去首页逛逛吧！</p>
+	<%}else{%>
+	<ul class="list-area js-list-area clean">
+		
+	</ul>
+	<%}%>
+</div>

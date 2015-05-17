@@ -1,0 +1,20 @@
+<div class="header">
+	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
+	加入清单
+	<a href="javascript:;" class="hd-right js-sure">完成</a>
+</div>
+<div class="first-wrapper qdlist-wrapper">
+	<ul class="go-list js-go-list">
+		<% var count=0 %>
+	<%_.each(data,function(item,i){%>
+		<%if(item.father_id=="0"){%>
+			<li>
+				<p class="p1"><%=item.fname%></p>
+				<p class="p2"><span class="js-pnum"><%=item.pnum%></span>件商品</p>
+				<div class="qdlist-radio js-qdlist-radio" data-checked="<%=(count==0?"1":"")%>"><div class="qd-icon <%=(count==0?"qd-icon-on":"")%>" data-fid="<%=item.fid%>" data-pnum="<%=item.pnum%>"><i class="icon"></i></div></div>			
+			</li>
+			<% count=1 %>
+		<%}%>
+	<%})%>
+</ul>
+</div>

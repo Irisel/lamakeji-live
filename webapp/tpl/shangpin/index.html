@@ -1,0 +1,80 @@
+<div class="header">
+	<a href="javascript:;" class="btn-back js-back"> <i class="icon"></i>
+	</a>
+	<%=data.ptname%>
+    <a href="javascript:;" class="js-praise" data-isgood="<%=data.isgood%>"><i class="icon icon-heart<%=data.isgood!="no"?" icon-heart-on":""%>"></i></a>
+	<a href="javascript:;" class="btn-share js-share" data-imgUrl="<%=data.picture%>" data-share="<%=data.html_url%>" data-shareTitle="<%=data.ptname%>" data-descContent="<%=data.pname%>"> <i class="icon"></i>
+	</a>
+</div>
+<div class="shangpin-wrapper">
+	<div class="slider-box slider-box2 js-slider-box">
+		<ul class="slider-list">
+			<%_.each(data.pictureList,function(item){%>
+				<li>
+					<img src="resource/images/loadimg.png" data-src="<%=item%>" alt=""/>               
+				</li>
+			<%})%>
+		</ul>
+		<div class="slider-point">
+			<ul class="js-sliderIdx">
+				<%_.each(data.pictureList,function(item,i){%>
+					<li class="<%=(i==0?"on":"")%>"></li>
+				<%})%>                         
+			</ul>
+		</div>
+		<div class="slider-suggest">
+				<p class="p1">建议购买时间</p>
+				<p class="p2"><%=data.buytime%></p>
+		</div>
+		<!-- <div class="slider-suggest2">
+			<p class="p1">适合</p>
+			<p class="p2">9个月+</p>
+		</div> -->
+	</div>
+	<table class="shangpin-title">
+		<tr>
+			<td>
+				<p class="p1"><%=data.pname%></p>
+				<p class="p2">￥<%=data.price%>·<%=data.place%>·<%=data.buytime%></p>
+			</td>
+			<td class="shangpin-right">
+				<a href="<%=data.html_url%>" class="buy" target="_blank">立即购买</a>
+			</td>
+		</tr>
+	</table>
+<!-- 	<div class="shangpin-recom js-recom-area">
+		<p class="title">这个商品被收录在</p>
+		<div class="recom-box">
+			<ul class="clean" style="width:690px;">
+				<%_.each(data.recom,function(item){%>
+				<li>
+					<a href="<%=item.link%>">
+						<img src="resource/images/loadimg.png" data-src="<%=item.img%>" />
+						<p class="txt"><%=item.txt%></p>
+					</a>
+				</li> 
+				<%})%>
+			</ul>
+		</div>
+	</div>	 -->
+	<ul class="shangpin-tab flex-equal js-tab">
+		<li class="on"><div>商品介绍</div></li>
+		<li><div>商品评论</div></li>
+	</ul>
+	<ul class="shangpin-tab-highlight flex-equal js-tab-highlight">
+		<li class="on"><div></div></li>
+		<li><div></div></li>
+	</ul>
+	<div class="shangpin-comment-box">
+		<ul class="comment-btn-box clean js-comment-btn">
+			<li><a href="#comment/index/pid:<%=data.pid%>"><i class="icon icon-comment"></i></a></li>
+			<li><a href="#qdlist/index/pid:<%=data.pid%>"><i class="icon icon-all-comment"></i></a></li>
+		</ul>
+		<div class="shangpin-content js-tab-content">
+			<p class="p-title">[<%=data.buytime%>]</p>
+			<p class="p-txt"><%=data.txt%></p>
+		</div>
+		<div class="shangpin-content js-tab-content shangpin-comment js-shangpin-comment hide">			
+		</div>
+	</div>
+</div>

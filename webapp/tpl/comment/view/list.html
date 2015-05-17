@@ -1,0 +1,24 @@
+<%if(data.length==0){%>
+	<li>
+		<p style="text-align:center;margin-top:50px;">还没有评论哦，快来评价一下吧。</p>
+	</li>
+<%}else{%>
+	<%_.each(data,function(item,i){%>
+	<li>
+		<div class="sleft"><img src="resource/images/wode.png" data-src="<%=item.photo||"resource/images/wode.png"%>" ></div>
+		<div class="sright" style="<%i==0?"border:none;":""%>">
+			<p class="p1"><%=Jser.uname(item.uname)%><span><%=item.ctime%></span></p>
+			<p class="p2"><%=item.content%></p>
+			<!-- <p class="p3">推荐理由</p>
+			<div class="stag">
+				<div class="btn btn-tag">安全</div>
+				<div class="btn btn-tag">男孩用</div>
+				<div class="btn btn-tag">安全</div>
+				<div class="btn btn-tag">安全</div>	
+				<div class="btn btn-tag">安全</div>							
+			</div> -->
+		</div>
+	</li>
+<%})%>
+<%}%>
+	

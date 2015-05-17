@@ -1,0 +1,53 @@
+{
+	"status": "success",
+	"code":"0",
+	"totalPage": "2",
+	"data": {
+		"totle": "3",
+		"explain": {
+			"img": "resource/images/banner.png",
+			"txt": "越孕越美"
+		},
+		"list": [{
+			"img": "resource/images/pic1.png",
+			"link": "#shangpin/index",
+			"price": "1200",
+			"word": "献给萌萌的高富帅献给萌萌的高富帅大礼包"
+		}, {
+			"img": "resource/images/pic2.png",
+			"link": "#shangpin/index",
+			"price": "100",
+			"word": "高大上的欧美风"
+		}, {
+			"img": "resource/images/pic3.png",
+			"link": "#shangpin/index",
+			"price": "10",
+			"word": "白雪公主的礼包"
+		}, {
+			"img": "resource/images/pic1.png",
+			"link": "javascript:;",
+			"price": "1200",
+			"word": "献给萌萌的高富帅"
+		}, {
+			"img": "resource/images/pic1.png",
+			"link": "javascript:;",
+			"price": "1200",
+			"word": "献给萌萌的高富帅"
+		}, {
+			"img": "resource/images/pic2.png",
+			"link": "javascript:;",
+			"price": "100",
+			"word": "高大上的欧美风"
+		}, {
+			"img": "resource/images/pic3.png",
+			"link": "javascript:;",
+			"price": "10",
+			"word": "白雪公主的礼包"
+		}, {
+			"img": "resource/images/pic1.png",
+			"link": "javascript:;",
+			"price": "1200",
+			"word": "献给萌萌的高富帅"
+		}]
+	}
+}

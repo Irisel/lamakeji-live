@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0,minimal-ui">
+    <title>妈咪手袋</title>
+    <link rel="stylesheet" href="resource/css/code-index.css"/>
+    <link rel="stylesheet" href="resource/css/common.css"/>
+    <script type="text/javascript" src="module/plusin/mTime/iscroll.js"></script>
+    <script type="text/javascript" src="module/lib/Jser.js"></script>
+    <script type="text/javascript" src="resource/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="resource/js/weixinshare.js"></script>
+    <script type="text/javascript" src="module/lib/sea.js"></script>
+    <script type="text/javascript" src="module/lib/seajs-text.js"></script>
+    <script type="text/javascript">
+     seajs.config({
+            base: '/webapp/module',
+            alias: {
+                //基础库
+                'underscore': 'lib/underscore',
+                'backbone': 'lib/backbone',
+                '$': 'lib/jquery'
+            }
+    });
+    var ST = {
+        PATH:{
+            ACTION:"http://lama.piapiapiapia.com/mamago/index.php/",
+            ROOT:"/api",
+            IMAGE:"/resource/images/",
+            UPLOAD:"",
+            SHARE:"http://lama.piapiapiapia.com/mamago/html/share/share.html",
+            AJAXIMG:"http://lama.piapiapiapia.com/mamago/uploads/"
+        }
+    }
+    seajs.use(['lib/single'], function(single){
+            single.date_init();
+    });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
+	    <span id="header_date"></span>
+        <a class="btn-submit">完成</a>
+    </div>
+    <div class="date-wraper">
+        <div class="baby-form init-form">
+            <div class="row">
+                <span class="left-span">宝宝生日</span>
+                <div class="right-span" id="baby-form-date" data-date=""></div>
+            </div>
+            <hr>
+            <div class="row">
+                <span class="left-span">宝宝性别</span>
+                <div class="gender-toggle">
+                    <div class="gender"><span class="gender-on" data-gender="female">女</span></div>
+                    <div class="gender"><span class="gender-off" data-gender="male">男</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="date-button-group">
+        </div>
+        <div class="demo">
+            <input id='beginTime' type='date' class='iphone-date kbtn'/>
+        </div>
+        </div>
+        <div id="datePlugin"></div>
+        <!--效果html结束-->
+</body>
+</html>

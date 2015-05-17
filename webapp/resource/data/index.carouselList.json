@@ -1,0 +1,16 @@
+{
+	"status":"success",
+	"data": {
+		"totle": 3,		
+		"list": [{
+			"img": "resource/images/banner.png",
+			"link": "#shangpin/index"
+		}, {
+			"img": "resource/images/banner1.png",
+			"link": "#shangpin/index"
+		}, {
+			"img": "resource/images/banner2.png",
+			"link": "#shangpin/index"
+		}]
+	}	
+}

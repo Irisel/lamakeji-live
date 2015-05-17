@@ -1,0 +1,22 @@
+<%_.each(data,function(item){%>
+<li class="clean <%=Number(item.user_id==Jser.getItem('user_id'))?"on":""%>">
+	<div class="qd-left">
+		<a href="<%=item.link%>" data-ptid="<%=item.ptid%>">
+			<table>
+				<tr>
+					<td style="vertical-align:top;">
+						<img src="resource/images/loadimg.png"  data-src="<%=item.ppicture%>"/>							
+					</td>
+					<td>
+						<div class="qd-info">
+							<p class="qd-title"><%=item.ptname%></p>
+							<p class="qd-lable"><%=item.ptmark%></p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</a>
+	</div>
+	<div class="qd-right js-qd-checked" data-ptid="<%=item.ptid%>"><div class="qd-icon"><i class="icon"></i></div></div>
+</li>	
+<%})%>

@@ -1,0 +1,13 @@
+<%if(data.length!=0){%>
+	<%_.each(data,function(item){%>
+		<li>
+			<a href="#shangpin/index/pid:<%=item.id%>" data-pid="<%=item.id%>">
+				<img src="resource/images/loadimg.png" data-src="<%=item.picture%>">			
+				<p class="word"><%=item.pname%></p>
+				<p>￥<%=item.price%></p>
+			</a>			
+		</li>		
+	<%})%>
+<%}else{%>
+	<div style="margin-top:100px;text-align:center;">对不起，暂时没有您搜索到的商品~~</div>
+<%}%>

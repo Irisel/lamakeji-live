@@ -1,0 +1,29 @@
+<div class="header">
+	<a href="#wode/index" class="btn-back"><i class="icon"></i></a>
+	我的关注
+	<a href="javascript:;" class="hd-right hd-right2">合集</a>
+	<div class="triangle-bottom"></div>
+	<select class="hd-dropdown2 js-guanzhu-dropdown">
+		<option>合集</option>
+		<option>单品</option>
+	</select>	
+</div>
+<div class="index-wrapper">
+	<ul class="index-list">
+		<%var count=0 %>
+		<%_.each(data,function(item){%>
+			<%if(item.father_id!="0"){%>
+				<% count++ %>
+				<%=Jser.setItem("fid"+item.fid,item.fname)%>
+				<li>
+					<a href="#list/index/fid:<%=item.fid%>/guanzhu:1">
+						<img src="resource/images/loadimg.png" data-src="<%=item.picture%>">
+					</a>
+				</li>	
+			<%}%>
+		<%})%>
+		<%if(!count){%>
+		<div style="margin-top:100px;text-align:center;">您还没有收藏过任何商品哦</div>
+		<%}%>
+	</ul>
+</div>

@@ -1,0 +1,10 @@
+<%_.each(data.list,function(item){%>
+<li>
+	<a href="<%=item.link%>">
+		<i class="mark-icon-on icon"></i>
+		<img src="resource/images/pic1.png" data-src="<%=item.img%>">
+		<span class="count-btn btn"><%=item.num%>件商品</span>
+		<p class="index-list-txt"><%=item.txt%></p>
+	</a>
+</li>
+<%})%>

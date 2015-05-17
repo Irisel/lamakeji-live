@@ -1,0 +1,40 @@
+<div class="header">
+	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
+	信息设置
+</div>
+<div class="xinxi-wrapper">
+	<div class="xinxi-top">
+		<p>欢迎加入妈咪手袋！</p>
+		<p>发现妈妈秘笈，购物欢乐多多</p>
+	</div>
+	<div class="xinxi-area  xinxi-icon1">
+		<!-- <p class="xinxi-area-top">妈妈状态</p> -->		
+		<ul class="xinxi-status js-xinxi-status">
+			<li class="<%=Jser.getItem("xinxistatus")=="0"?"on":""%>">备怀</li>
+			<li class="<%=Jser.getItem("xinxistatus")=="1"?"on":""%>">怀孕中</li>
+			<li class="<%=Jser.getItem("xinxistatus")=="2"?"on":""%>">宝宝已出生</li>
+		</ul>	
+	</div>
+	<div class="xinxi-area xinxi-icon2">
+		<!-- <p class="xinxi-area-top">生日/预产期</p> -->		
+		<div class="xinxi-ipt-txt">
+			<input type="text" class="js-xinxi-date" value="<%=Jser.getItem("xinxidate")%>" placeholder="生日/预产期" />
+			<input type="date" class="iphone-date js-iphone-date" />
+		</div>		
+	</div>
+	<div class="xinxi-area xinxi-icon3">
+		<!-- <p class="xinxi-area-top">宝宝性别</p> -->		
+		<ul class="xinxi-gender js-xinxi-gender clean">
+			<li class="<%=Jser.getItem("xinxigender")=="0"?"on":""%>">
+				<span class="xinxi-txt">王子</span>
+				<div class="gender-checked"></div>	
+			</li>
+			<li  class="<%=Jser.getItem("xinxigender")=="1"?"on":""%>" style="float:right">
+				<span class="xinxi-txt xinxi-txt2">公主</span>
+				<div class="gender-checked"></div>	
+			</li>
+		</ul>
+		
+	</div>
+	<a href="javascript:;" class="btn xinxi-btn js-sure">保存</a>
+</div>
