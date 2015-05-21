@@ -381,10 +381,12 @@ textarea{
   padding: 14px 10px;
 }
 .header .btn-back i{
-  width: 36px;
+  width: 20px;
   height: 30px;
   display: block;
-  background-position: 0 -95px;
+  background: url(../images/icon2.png) 0 0 no-repeat;
+  background-position: -205px -4px;
+
 }
 .header .btn-share{
   position: absolute;
@@ -771,8 +773,9 @@ textarea{
 .search-icon{
   width: 40px;
   height: 40px;
-  background-position:0 -156px;
   display: block;
+  background: url(../images/icon2.png) 0 0 no-repeat;
+  background-position: -41px 0;
 }
 .index-list li{
   position: relative;
@@ -1470,9 +1473,7 @@ textarea{
 .shangpin-tab-highlight li.on div{ 
   background-color: #EB938B;  
 }
-.shangpin-comment{
 
-}
 .shangpin-comment .title{
   line-height: 25px;
   height: 25px;
@@ -1513,17 +1514,17 @@ textarea{
   background-position: 0 -350px;
 }
 .icon-heart{
-  width: 39px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   display: block;
-  background-position: 0 -171px;
-  background-size: 90%;
+  background: url(../images/icon2.png) no-repeat;
+  background-position: -347px 0;
 }
 .icon-heart-on{
-  width:40px;
-  height:32px;
+  width: 40px;
+  height: 40px;
+  background-position: -267px 0;
   display: block;
-  background-position: 0 -418px;
 }
 .icon-all-comment{
   width:40px;
@@ -1593,6 +1594,11 @@ textarea{
   font-size: 0.875em;
   margin:0px 3px 4px 0;
 }
+
+.shangpin-content{
+  margin-bottom:70px;
+}
+
 .shangpin-comment .all-comment{
   display: inline-block;
   width: 100%;
@@ -2503,10 +2509,10 @@ iframe{
 
 .js-wrapper .js-praise{
   position: absolute;
-  right: 50px;
+  right: 40px;
   top: 0px;
   height: 44px;
-  width: 30px;
+  width: 40px;
   display: block;
   padding: 12px 9px;
 }
@@ -2548,12 +2554,13 @@ iframe{
 .share-logo {
   background-color: #f5f3f4;
   padding-top: 20px;
+  border-top: 1px solid #3c3c3c;
 }
 
 .share-logo div{
-  width: 57.6vw;
-  height: 28.8vw;
-  margin: 20px auto 18vw;
+  width: 208px;
+  height: 104px;
+  margin: 20px auto 50px;
   background: url('../images/share_logo.png') center center no-repeat;
   background-size: contain;
 }
@@ -2582,7 +2589,7 @@ iframe{
 
 .lamadownload{
   width: 100vw;
-  height: 18vw;
+  height: 50px;
   position: fixed;
   color: #ffffff;
   bottom: 0;
@@ -2591,40 +2598,161 @@ iframe{
 .lamadownload .download-logo{
   background: url('../images/lamashoudai.png') center center no-repeat;
   background-size: contain;
-  height: 13vw;
-  width: 13vw;
+  height: 36.2px;
+  width: 36.2px;
   display: inline-block;
-  margin: 2.5vw;
-  float:left;
+  margin: 6.9px;
+  float: left;
 }
 
 
 .bg-transparent{
-   width:100%;
-   height:100%;
-   background: url('../images/downloadbg.png');
+  width: 100%;
+  height: 50px;
+  background: url('../images/downloadbg.png');
 }
 
 .lamadownload p{
-  display: inline-block;
   margin: 0;
-  line-height: 6.5vw;
+  line-height: 18.1px;
+  font-size: 12px;
 }
 
 .just-download{
   display: inline-block;
   background: url('../images/justdownload.png') center center no-repeat;
-  height: 9vw;
-  width: 22vw;
+  height: 25px;
+  width: 61.1px;
   background-size: contain;
   float: right;
-  margin: 4.5vw 2.6vw 4.5vw 0;
+  margin: 12.5px 2.6vw 12.5px 0;
 }
 
 .lamatext{
-  height: 13vw;
-  width: 11em;
+  height: 36.2px;
   display: inline-block;
-  margin: 2.5vw 0 2.5vw 0;
+  margin: 6.9px 0;
   float: left;
+}
+
+.btn-original {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.login-btn-original {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  display: block;
+  background: #f79989;
+  color: #fff;
+}
+
+.sign-btn-original{
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  display: block;
+  background: #fff;
+  color: #3f3f3f;
+}
+
+.login-wrapper-original{
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100vw;
+  background: url('../images/periodaxis.png') top left no-repeat;
+  background-size:100% 100%;
+}
+
+.sign-wrapper-original{
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100vw;
+  background: url('../images/periodaxis.png') top left no-repeat;
+  background-size:100% 100%;
+}
+.login-but-forget a{
+  color: #fff;
+  font-size: 0.975em;
+  float: right;
+  width: 120px;
+  text-align: right;
+  margin: 0;
+}
+
+.login-but-forget {
+  width: 100%;
+  height: 20px;
+  margin-top: 53px;
+}
+
+.login-area-original{
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.sign-area-original{
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.login-right-original{
+  float: right;
+  width: 230px;
+  margin: 2px 0;
+  border-left: 1px solid #fff;
+}
+
+.login-right-original input{
+  width: 98%;
+  height: 34px;
+  float: right;
+  color: #fff;
+}
+
+.login-ipt-original{
+  width: 100%;
+  height: 42px;
+  margin-bottom: 12px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+
+.sign-ipt-original {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  height: 42px;
+  overflow: hidden;
+  margin-top: 21px;
+}
+
+.sign-ipt-code-original{
+  float: left;
+  width: 60%;
+  height: 44px;
+  border: 2px solid #fff;
+  padding: 10px 0 0 13px;
+  border-radius: 3px;
+}
+
+.sign-btn-code-original{
+  float: right;
+  width: 90px;
+  line-height: 44px;
+  height: 44px;
+  border: 2px solid #fff;
+  text-align: center;
+  color: #b2b2b2;
+  font-size: 0.875em;
+  cursor: pointer;
+  border-radius: 3px;
 }

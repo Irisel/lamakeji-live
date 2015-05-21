@@ -96,13 +96,13 @@ function weixin6bySet() {
 		},
 		success: function(res) {
 			TWeiXinCount();
-			// alert('已分享');
+//			alert('已分享');
 		},
 		cancel: function(res) {
-			// alert('已取消');
+//			alert('已取消');
 		},
 		fail: function(res) {
-			// alert(JSON.stringify(res));
+//			alert(JSON.stringify(res));
 		}
 	});
 

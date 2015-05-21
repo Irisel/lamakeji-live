@@ -32,8 +32,7 @@ define('', '', function(require) {
 			t.$el.find(".js-list-area").append(_html);
 			Jser.loadimages(t.$el.find(".js-list-area"));
 			t.setShare();
-            Jser.getJSON("http://lama.piapiapiapia.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
-                // setwxconfig(data);
+            Jser.getJSON("http://www.lamakeji.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
                 t.$el.find('.strategy-share').html(data.data.detail.fcontent);
             })
 		},
@@ -50,7 +49,7 @@ define('', '', function(require) {
 			var fid = t.model.get("pars")["fid"];
 			var shareTitle = Jser.getItem("fdescribe" + fid) || "辣妈科技";
 			var descContent = Jser.getItem("fid" + fid);
-			var url = 'http://lama.piapiapiapia.com/webapp/#list/share/fid:'+ fid +'?share=true';
+			var url = 'http://www.lamakeji.com/webapp/#list/share/fid:'+ fid +'?share=true';
 			Jser.setshare({
 				lineLink: url,
 				shareTitle: shareTitle,

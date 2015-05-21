@@ -1,0 +1,30 @@
+<div class="header">
+	<a class="btn-back js-back" href="javascript:;"><i class="icon"></i></a>
+	登录
+</div>
+<div class="login-wrapper">
+	<div class="login-area">
+		<form id="js-login-form">
+			<img class="login-logo" src="resource/images/logo.png" />
+			<p class="error js-error">*<span></span></p>
+			<div class="login-ipt clean">
+				<div class="login-left"><div class="icon icon-user"></div></div>
+				<div class="login-right">
+					<input type="text"  class="ipt-txt js-uname" name="uname" value="<%=Jser.getItem('uname')%>" placeholder="用户名" />
+				</div>
+			</div>
+			<div class="login-ipt clean">
+				<div class="login-left login-left2"><div class="icon icon-password"></div></div>
+				<div class="login-right">
+					<input type="password"  class="ipt-txt js-password"  value="<%=Jser.getItem('password')%>" name="password" placeholder="密码" />
+				</div>
+			</div>
+			<a href="javascript:;" class="btn login-btn js-login-btn">登录</a>
+		</form>
+		<div class="login-other clean">
+			<a href="#forget/index" class="login-other-forget">忘记密码</a>
+			<a href="#sign/index" class="login-other-sign">新用户注册</a>
+		</div>
+		<!-- <a  href="javascript:;" class="login-third">使用第三方账号登陆</a> -->
+	</div>
+</div>
