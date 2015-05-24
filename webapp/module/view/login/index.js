@@ -36,6 +36,7 @@ define('', '', function(require) {
 					_data[i].value = val;
 					_locData[name]=val;
 				});
+                console.log(_data);
 				Jser.getJSON(ST.PATH.ACTION + "user/login", _data, function(data) {
 					Jser.setItem("uname", data.data.uname);
 					Jser.setItem("password",_locData["password"]);

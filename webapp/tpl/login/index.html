@@ -1,15 +1,16 @@
 <div class="login-wrapper-original">
-	<div class="login-area-original">
+     <div class="wrapper-top"></div>
+	<div class="area-original">
 		<form id="js-login-form">
-			<!--p class="error js-error">*<span></span></p-->
-			<div class="login-ipt-original clean">
-				<div class="login-left"><div class="icon icon-user"></div></div>
+			<p class="error js-error">*<span></span></p>
+			<div class="ipt-original clean">
+				<div class="login-left"><div class="user-icon"></div></div>
 				<div class="login-right-original">
 					<input type="text"  class="ipt-txt js-uname" name="uname" value="<%=Jser.getItem('uname')%>" placeholder="请输入手机号" />
 				</div>
 			</div>
-			<div class="login-ipt-original clean">
-				<div class="login-left login-left2"><div class="icon icon-password"></div></div>
+			<div class="ipt-original clean">
+				<div class="login-left"><div class="passwd-icon"></div></div>
 				<div class="login-right-original">
 					<input type="password"  class="ipt-txt js-password"  value="<%=Jser.getItem('password')%>" name="password" placeholder="请输入密码" />
 				</div>

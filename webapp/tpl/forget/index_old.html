@@ -1,0 +1,32 @@
+<div class="header">
+	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
+	找回密码
+</div>
+<div class="first-wrapper forget-wrapper">
+	<p class="error js-error">*<span></span></p>
+	<div class="forget-area ">
+		<div class="forget-ipt">
+			+86<input type="tel" value="<%=Jser.getItem('uname')%>" class="js-forget-tel" placeholder="输入注册手机号" />
+		</div>
+		<div class="forget-btn forget-step js-forget-step">下一步</div>
+	</div>
+	<div class="forget-area hide">
+		<div class="forget-info">
+			已向手机&nbsp;<span class="js-forget-tel2"></span>&nbsp;发送验证码
+			<img src="resource/images/forget-icon.png" />
+		</div>
+		<form id="js-forget-form">
+			<input type="hidden" value='<%=Jser.getItem("user_id")%>"' name="user_id"/>
+			<div class="forget-ipt forget-ipt2">
+				<input type="text" class="js-oldpassword" name="oldpassword" placeholder="请输入手机收到的重置密码" maxlength="20" />
+			</div>
+			<div class="forget-ipt forget-ipt2">
+				<input type="password" class="js-password1" placeholder="请输入新密码(6-20位英文或者数字)" maxlength="20" />
+			</div>
+			<div class="forget-ipt forget-ipt2">
+				<input type="password" class="js-password2" name="password" placeholder="请重复输入新密码(6-20位英文或者数字)" maxlength="20" />
+			</div>
+			<div class="forget-btn forget-sure js-forget-sure">提交</div>
+		</form>	
+	</div>
+</div>

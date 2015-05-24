@@ -121,11 +121,9 @@
         // location.href="http://www.lamakeji.com/mamago/index.php/weixin/getAuth";
         //origin url http://www.lamakeji.com/
         Jser.getJSON("http://www.lamakeji.com/mamago/index.php/weixin/authCallback?code=0210e8c12bbb6e2016c8c2d694ae708S&state=123","", function(data) {
-            // setwxconfig(data);
-            alert(JSON.stringify(data))
+            setwxconfig(data);
         }, function(data) {
-            alert(JSON.stringify(data))
-            // setwxconfig(data);
+            setwxconfig(data);
         }, "get", "json", true)
     }
     function doQingDanNav(){

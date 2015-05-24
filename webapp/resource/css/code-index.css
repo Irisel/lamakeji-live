@@ -451,11 +451,11 @@ textarea{
   margin-top:21px;
 }
 .sign-left{
-  width: 66px;
-  margin-top: 10px;
+  width: 42px;
+  margin: 8px 0;
   float: left;
-  border-right: 1px #d1d9fa solid;
-  height: 20px;
+  border-right: 1px #fff solid;
+  height: 32px;
 }
 .sign-left .txt{
   width: 100%;
@@ -465,25 +465,27 @@ textarea{
   line-height: 20px;
 }
 .sign-right{
-  width: 150px;
-  margin: 10px 0 0 9px;
+  width: 221px;
+  margin: 10px 0 14px 9px;
   float: left;
 }
 .sign-right .ipt-txt{
-  width: 150px;
-  height: 20px;
-  line-height: 20px;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
   display: block;
-  font-size: 0.875em;
+  font-size: 16px;
 }
 .sign-btn{
   width: 100%;
-  height: 40px;
+  height: 49px;
   display: block;
+  line-height: 49px;
+  font-size: 18px;
 }
 .sign-icon{
   width: 18px;
-  height: 36px;
+  height: 30px;
   margin-left: 31px;
 }
 .sign-ipt2{
@@ -544,9 +546,11 @@ textarea{
   border-radius: 3px;
 }
 .login-left{
+  width: 42px;
+  margin: 8px 0;
   float: left;
-  width: 29px;
-  margin:13px 0 0 15px;
+  border-right: 1px #fff solid;
+  height: 32px;
 }
 .login-left2{
   margin:16px 0 0 15px;
@@ -567,8 +571,11 @@ textarea{
   margin-top:10px;
 }
 .login-right .ipt-txt{
-  height: 20px;
-  font-size: 0.875em;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  display: block;
+  font-size: 16px;
 }
 .login-other{
   margin-top: 53px;
@@ -1520,6 +1527,12 @@ textarea{
   background: url(../images/icon2.png) no-repeat;
   background-position: -347px 0;
 }
+
+.icon2{
+  background: url(../images/icon2.png) no-repeat;
+  background-position: -347px 0;
+}
+
 .icon-heart-on{
   width: 40px;
   height: 40px;
@@ -2644,20 +2657,25 @@ iframe{
 
 .login-btn-original {
   width: 100%;
-  height: 40px;
-  margin-top: 10px;
   display: block;
   background: #f79989;
   color: #fff;
+  height: 49px;
+  display: block;
+  line-height: 49px;
+  font-size: 18px;
 }
 
 .sign-btn-original{
   width: 100%;
-  height: 40px;
   margin-top: 10px;
   display: block;
   background: #fff;
   color: #3f3f3f;
+  height: 49px;
+  display: block;
+  line-height: 49px;
+  font-size: 18px;
 }
 
 .login-wrapper-original{
@@ -2665,7 +2683,7 @@ iframe{
   bottom: 0;
   height: 100%;
   width: 100vw;
-  background: url('../images/periodaxis.png') top left no-repeat;
+  background: url('../images/personalbg.png') top left no-repeat;
   background-size:100% 100%;
 }
 
@@ -2674,7 +2692,7 @@ iframe{
   bottom: 0;
   height: 100%;
   width: 100vw;
-  background: url('../images/periodaxis.png') top left no-repeat;
+  background: url('../images/personalbg.png') top left no-repeat;
   background-size:100% 100%;
 }
 .login-but-forget a{
@@ -2689,70 +2707,93 @@ iframe{
 .login-but-forget {
   width: 100%;
   height: 20px;
-  margin-top: 53px;
+  margin: 50px 0;
 }
 
-.login-area-original{
-  width: 280px;
+.area-original{
+  width: 287px;
   margin: 0 auto;
-  margin-top: 80px;
-}
-
-.sign-area-original{
-  width: 280px;
-  margin: 0 auto;
-  margin-top: 80px;
 }
 
 .login-right-original{
-  float: right;
-  width: 230px;
-  margin: 2px 0;
-  border-left: 1px solid #fff;
+  width: 221px;
+  margin: 10px 0 14px 9px;
+  float: left;
 }
 
 .login-right-original input{
-  width: 98%;
-  height: 34px;
-  float: right;
-  color: #fff;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  display: block;
+  font-size: 16px;
 }
 
 .login-ipt-original{
   width: 100%;
-  height: 42px;
+  height: 52px;
   margin-bottom: 12px;
   border: 2px solid #fff;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
-.sign-ipt-original {
+.ipt-original {
   width: 100%;
   border: 2px solid #fff;
-  border-radius: 3px;
-  height: 42px;
+  border-radius: 2px;
+  height: 52px;
   overflow: hidden;
   margin-top: 21px;
 }
 
 .sign-ipt-code-original{
   float: left;
-  width: 60%;
-  height: 44px;
-  border: 2px solid #fff;
-  padding: 10px 0 0 13px;
-  border-radius: 3px;
+  width: 182px;
+  height: 52.5px;
+  border: 1px solid #fff;
+  padding: 10px 0 10px 0;
+  border-radius: 2px;
 }
 
-.sign-btn-code-original{
+.sign-ipt-code-original input{
+    height:32.5px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-code-original{
   float: right;
   width: 90px;
-  line-height: 44px;
-  height: 44px;
-  border: 2px solid #fff;
+  line-height: 52.5px;
+  height: 52.5px;
+  border: 1px solid #fff;
   text-align: center;
-  color: #b2b2b2;
-  font-size: 0.875em;
+  color: #fff;
+  font-size: 16px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 2px;
+}
+
+.area-original input::-webkit-input-placeholder, .area-original input { color:#fff; }
+
+
+
+.user-icon{
+  background: url('../images/user.png') bottom center no-repeat;
+  background-size: contain;
+  height: 24px;
+  margin-top: 6px;
+}
+
+.passwd-icon{
+  background: url('../images/passwd.png') bottom center no-repeat;
+  background-size: contain;
+  height: 24px;
+  margin-top: 6px;
+}
+
+.wrapper-top{
+    height:16.21%;
+    width:100vw;
 }

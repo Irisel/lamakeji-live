@@ -4,22 +4,23 @@
     <list default="true" id="5b21af73-2882-4996-bbde-172a2e5d82e9" name="Default" comment="" />
     <ignored path="lamakeji-live.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432221803780" ignored="false" />
+    <file path="/Dummy.txt" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432452465476" ignored="false" />
     <file path="/weixinshare.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1431927976233" ignored="false" />
-    <file path="/a.dummy" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131696236" ignored="false" />
-    <file path="/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432230631740" ignored="false" />
+    <file path="/a.dummy" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432408565516" ignored="false" />
+    <file path="/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432436689562" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1431948004717" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/css/main.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1431948228292" ignored="false" />
     <file path="/main.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1431945995437" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/css/phone.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1431948084909" ignored="false" />
     <file path="/phone.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1431948016129" ignored="false" />
-    <file path="/code-index.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432230411840" ignored="false" />
+    <file path="/code-index.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432436726250" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/main.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131817628" ignored="false" />
     <file path="/zepto.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131586056" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/lib/zepto.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131755179" ignored="false" />
     <file path="/main.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131817628" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432132081087" ignored="false" />
     <file path="/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432132070022" ignored="false" />
+    <file path="/index.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432437559199" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,64 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/index.html">
+      <file leaf-file-name="swipe.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/plusin/swipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="7" selection-start="2051" selection-end="2051" vertical-scroll-proportion="11.535714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/index/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="35" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="9" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code-index.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webapp/resource/css/code-index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2756" column="21" selection-start="45964" selection-end="45964" vertical-scroll-proportion="0.8694158">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_old.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/tpl/sign/index_old.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="95" selection-end="107" vertical-scroll-proportion="-2.7142856">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/tpl/sign/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="892" selection-end="892" vertical-scroll-proportion="-7.5283017">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/tpl/login/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="893" selection-end="893" vertical-scroll-proportion="-6.4528303">
+            <state line="336" column="23" selection-start="10992" selection-end="10992" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +52,34 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/module/view/login/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="418" selection-end="418" vertical-scroll-proportion="-4.56">
+            <state line="45" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code-index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/resource/css/code-index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2712" column="15" selection-start="45300" selection-end="45300" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/module/view/forget/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="27" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.021764033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/tpl/forget/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="40" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,10 +94,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zepto.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/lib/zepto.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/tpl/login/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="32260" selection-end="32260" vertical-scroll-proportion="0.0">
+            <state line="1" column="36" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/tpl/sign/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="6" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jser.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="243" column="42" selection-start="8166" selection-end="8166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="20" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,13 +150,16 @@
       <list>
         <option value="$PROJECT_DIR$/webapp/resource/js/weixinshare.js" />
         <option value="$PROJECT_DIR$/webapp/tpl/list/share.html" />
-        <option value="$PROJECT_DIR$/webapp/index.html" />
         <option value="$PROJECT_DIR$/webapp/module/view/list/index.js" />
         <option value="$PROJECT_DIR$/webapp/tpl/login/index_old.html" />
-        <option value="$PROJECT_DIR$/webapp/tpl/login/index.html" />
         <option value="$PROJECT_DIR$/webapp/tpl/sign/index_old.html" />
+        <option value="$PROJECT_DIR$/webapp/index.html" />
+        <option value="$PROJECT_DIR$/webapp/module/view/login/index.js" />
+        <option value="$PROJECT_DIR$/webapp/tpl/login/index.html" />
         <option value="$PROJECT_DIR$/webapp/tpl/sign/index.html" />
         <option value="$PROJECT_DIR$/webapp/resource/css/code-index.css" />
+        <option value="$PROJECT_DIR$/webapp/tpl/forget/index.html" />
+        <option value="$PROJECT_DIR$/webapp/module/view/forget/index.js" />
       </list>
     </option>
   </component>
@@ -191,6 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,7 +326,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,20 +440,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baidu_news" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\resource\images" />
+      <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\forget" />
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\sign" />
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\login" />
-      <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\resource\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\resource\images" />
@@ -455,7 +552,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -472,14 +569,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29615796" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3094984" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -555,36 +652,60 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/resource/images/icon1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/resource/images/info1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/resource/images/icon2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/resource/images/iconlogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/view/list/share.js">
+    <entry file="file://$PROJECT_DIR$/webapp/module/base/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="22" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/golist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="15" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="35" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
+        <state line="92" column="25" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/go/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="27" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/comment/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="21" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/add/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="25" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/plusin/swipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="336" column="23" selection-start="10992" selection-end="10992" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="20" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="243" column="42" selection-start="8166" selection-end="8166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -596,65 +717,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/lib/zepto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="32260" selection-end="32260" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/view/login/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="418" selection-end="418" vertical-scroll-proportion="-4.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tpl/login/index_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="903" selection-end="906" vertical-scroll-proportion="0.47218934">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="7" selection-start="2051" selection-end="2051" vertical-scroll-proportion="11.535714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="9" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tpl/sign/index_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="95" selection-end="107" vertical-scroll-proportion="-2.7142856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/login/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="893" selection-end="893" vertical-scroll-proportion="-6.4528303">
+        <state line="1" column="36" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/sign/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="892" selection-end="892" vertical-scroll-proportion="-7.5283017">
+        <state line="29" column="6" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/resource/css/code-index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2756" column="21" selection-start="45964" selection-end="45964" vertical-scroll-proportion="0.8694158">
+        <state line="2712" column="15" selection-start="45300" selection-end="45300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/tpl/forget/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/forget/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.021764033">
           <folding />
         </state>
       </provider>
