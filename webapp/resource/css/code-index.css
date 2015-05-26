@@ -390,12 +390,12 @@ textarea{
 }
 .header .btn-share{
   position: absolute;
-  right:10px;
-  top:0px;
+  right: 10px;
+  top: 0px;
   height: 44px;
   width: 30px;
   display: block;
-  padding: 12px 9px;
+  padding: 11.4px 9px;
 }
 .left-btn{
   position: absolute;
@@ -407,10 +407,11 @@ textarea{
   padding: 14px 8px;
 }
 .header .btn-share i{
-  width: 38px;
-  height: 38px;
+  width: 41px;
+  height: 42px;
   display: block;
-  background-position: 0 -277px;
+  background: url(../images/icon2.png) 0 -3px no-repeat;
+
 }
 .second-header{
   position:fixed;
@@ -946,15 +947,15 @@ textarea{
   left: 0;
   bottom:0;
 }
-.icon-index{
 
-}
 .dropdown-icon{
-  width: 40px;
-  height: 37px;
+  width: 35px;
+  height: 50px;
   display: block;
-  background-position:0 -485px;
+  background: url(../images/icon2.png) -98px -0px no-repeat;
+  background-size: auto 37px;
 }
+
 .hd-dropdown{
   position: absolute;
   width: 30px;
@@ -1138,7 +1139,7 @@ textarea{
 .qs-explain{
   position: absolute;
   z-index: 3;
-  height: 30px;
+  height: 26.5px;
   width: 100%;
   bottom: 0px;
   left: 0px; 
@@ -1306,7 +1307,7 @@ textarea{
 .list-area{
   width: 94%;
   margin: 0 auto;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 .list-area li{
   width: 46%;
@@ -2005,6 +2006,23 @@ iframe{
    display: block;
 }
 
+@media screen and (max-width: 370px){
+  .list-area {
+    width:296.7px;
+  }
+ .list-area li{
+    width: 138.35px;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 399px){
+   .list-area {
+    width: 344px;
+  }
+   .list-area li{
+    width: 162px;
+  }
+}
 
 @media screen and (min-width: 400px){
   .slider-box{
@@ -2013,8 +2031,11 @@ iframe{
   .slider-box2{
     height: 320px;
   }
+  .list-area {
+    width:387px;
+  }
   .list-area li{
-    width: 47%;
+    width: 183px;
   }
   .list-top{
     height: 150px;
@@ -2239,7 +2260,7 @@ iframe{
 .qingdan-date {
   position: absolute;
   width: 76px;
-  height: 58px;
+  height: 56px;
   left: 5%;
   top: 5%;
   background: url('../images/qingdan_date.png') no-repeat;
@@ -2401,22 +2422,23 @@ iframe{
 .go-tab{
   position:relative;
   width: 100vw;
-  height: 10vw;
+  height: 43px;
   border-bottom: 1px solid #e0e0e0;
   line-height: 10vw;
   color:#a4a4a4;
   font-size: 1em;
 }
 
-.go-tab .tab{
+.go-tab .tab {
   width: 50%;
-  height: 50%;
+  height: 22px;
   text-align: center;
-  line-height: inherit;
+  line-height: 43px;
   position: relative;
   display: block;
-  top: 2.5vw;
+  top: 10px;
 }
+
 .go-tab .tab:first-child{
   float: left;
   border-right: 1px solid #e0e0e0;
@@ -2429,11 +2451,11 @@ iframe{
 
 .go-tab .tab div{
   position: absolute;
-  height: 10vw;
+  height: 43px;
   line-height: inherit;
   margin: 0 0 0 25%;
   width: 50%;
-  top: -2.5vw;
+  top: -10px;
 }
 
 .go-tab .tab .active-tab{
@@ -2489,9 +2511,11 @@ iframe{
 
 .qingdan-date span{
   display: block;
-  height: 36px;
-  margin: 11px 0;
-  line-height: 36px;
+  height: 13px;
+  margin: 21.5px 0;
+  line-height: 13px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .qs-btn span{

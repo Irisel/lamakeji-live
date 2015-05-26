@@ -25,7 +25,7 @@ window.Jser = {
                 $(t).removeAttr("data-src");
             }
             img.onerror = function() {
-                t.setAttribute("src", "resource/images/loadimg.png")
+                t.setAttribute("src", "resource/images/loadbanner.png")
             }
         }
     },
