@@ -8,7 +8,8 @@ define('', '', function(require) {
 
 	var model = new M({
 		pars: {
-			"pageNo": "1"
+			"pageNo": "1",
+            "user_id": Jser.getItem("user_id")
 		}
 	});
 	var indexSelf;
@@ -38,6 +39,7 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
+            console.log(data);
 			var html = _.template(t.template, data);
 			t.totalSize = Number(data.page.totalSize);
 			t.totalPage = Math.ceil(t.totalSize / data.page.pageSize);

@@ -20,7 +20,7 @@
 	<ul class="index-list">
 		<%var count=0 %>
 		<%_.each(data,function(item){%>
-			<%if(item.father_id!="0"){%>
+			<!--%if(item.father_id!="0"){%-->
 				<% count++ %>
 				<%=Jser.setItem("fid"+item.fid,item.fname)%>
 				<li>
@@ -28,7 +28,7 @@
 						<img src="resource/images/loadproduct.png" data-src="<%=item.picture%>">
 					</a>
 				</li>	
-			<%}%>
+			<!--%}%-->
 		<%})%>
 		<%if(!count){%>
 		<div style="margin-top:100px;text-align:center;">您还没有收藏过任何合集哦</div>

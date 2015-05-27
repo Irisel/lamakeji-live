@@ -27,6 +27,7 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
+
             if(data.data && data.data.length>1)data.data = data.data.slice(0,1);
 			var html = _.template(t.template, data);
 			t.$el.show().html(html);

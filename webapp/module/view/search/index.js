@@ -6,7 +6,7 @@ define('', '', function(require) {
 	var list_tpl = require('text!../../../tpl/search/view/list.html');
 
 	var model = new M({
-		type: "post",
+		type: "get",
 		isload: "false",
 		action: 'product/productListForPname'
 	});
@@ -21,7 +21,7 @@ define('', '', function(require) {
 		totalPage: 1, // 总页数
 		events: {
 			"click .js-back": "goback",
-			"click .js-search": "doSearch",
+			"click .js-search": "doSearch"
 		},
 		initialize: function() {
 			var t = this;

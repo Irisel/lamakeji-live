@@ -25,14 +25,16 @@ define('', '', function(require) {
             var t = this;
 			if (t.checkStep()) {
 				t.$el.find(".js-error").hide();
-				var url = ST.PATH.ACTION + "user/gainPhonePassword";
+				var url = ST.PATH.ACTION + "user/sendEmail";
 				var tel = $.trim(t.$el.find(".js-forget-tel").val());
 				var _data = {
 					"uname": tel
 				};
 				Jser.getJSON(url, _data, function() {
 					Jser.confirm("验证码发送成功", function() {}, function() {});
-				});
+				}, function() {
+
+				}, "post");
 			}
 		},
 		doSure: function() {
@@ -47,8 +49,9 @@ define('', '', function(require) {
 					_data[i].value = val;
 					_locData[name] = val;
 				});
-				Jser.getJSON(ST.PATH.ACTION + "user/updatePassword", _data, function(data) {
+				Jser.getJSON(ST.PATH.ACTION + "user/findPassword", _data, function(data) {
 					Jser.setItem("password", _locData["password"]);
+                    Jser.confirm(data.msg, function() {}, function() {});
 				}, function() {
 
 				}, "post");
@@ -56,7 +59,7 @@ define('', '', function(require) {
 		},
 		checkSure: function() {
 			var t = this;
-			var t1 = t.$el.find(".js-oldpassword");
+			var t1 = t.$el.find(".js-vcode");
 			var t2 = t.$el.find(".js-password1");
             var t3 = t.$el.find(".js-forget-tel");
             var reg = /^(\d{1,4}\-)?(13|15|17|18){1}\d{9}$/;

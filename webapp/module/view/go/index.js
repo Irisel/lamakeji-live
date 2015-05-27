@@ -25,6 +25,7 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
+            console.log(data);
 			var html = _.template(t.template, data);
 			t.$el.show().html(html);
 			var h = Math.max($(document).height() - t.$el.height() - 20, 20);
@@ -198,7 +199,8 @@ define('', '', function(require) {
 		model.set({
 			action: 'favorite/favoriteMyList',
             pars: {
-			    "user_id": Jser.getItem("user_id")
+			    "user_id": Jser.getItem("user_id"),
+			    "fromflag": "myselfandshare"
 		    }
 		});
 		return new V({

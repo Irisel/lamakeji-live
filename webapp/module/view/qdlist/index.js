@@ -76,7 +76,8 @@ define('', '', function(require) {
 		model.set({
 			pars: {
 				"user_id": Jser.getItem("user_id"),
-				"pid": pars.pid
+				"pid": pars.pid,
+			    "fromflag": "myselfandshare"
 			}
 		});
 		return new V({

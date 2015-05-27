@@ -11,7 +11,7 @@ define('', '', function(require) {
 		model: model,
 		template: H,
 		events: {
-			"click .js-share": "doShare",
+			"click .js-share": "doShare"
 		},
 		initialize: function() {
 			var t = this;

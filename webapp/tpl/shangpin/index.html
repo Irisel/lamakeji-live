@@ -1,7 +1,7 @@
 <div class="header">
 	<a href="javascript:;" class="btn-back js-back"> <i class="icon"></i>
 	</a>
-	<%=data.ptname%>
+	<span class="shangpin-header-title"><%=data.pname%></span>
     <a href="javascript:;" class="js-praise" data-isgood="<%=data.isgood%>"><i class="icon icon-heart<%=data.isgood!="no"?" icon-heart-on":""%>"></i></a>
 	<a href="javascript:;" class="btn-share js-share" data-imgUrl="<%=data.picture%>" data-share="<%=data.html_url%>" data-shareTitle="<%=data.ptname%>" data-descContent="<%=data.pname%>"> <i class="icon"></i>
 	</a>
@@ -62,13 +62,13 @@
 		<li><div>商品评论</div></li>
 	</ul>
 	<ul class="shangpin-tab-highlight flex-equal js-tab-highlight">
-		<li class="on"><div></div></li>
-		<li><div></div></li>
+		<li class="on"><div class="left"></div></li>
+		<li><div class="right"></div></li>
 	</ul>
 	<div class="shangpin-comment-box">
 		<ul class="comment-btn-box clean js-comment-btn">
-			<li><a href="#comment/index/pid:<%=data.pid%>"><i class="icon icon-comment"></i></a></li>
-			<li><a href="#qdlist/index/pid:<%=data.pid%>"><i class="icon icon-all-comment"></i></a></li>
+			<li><a href="#comment/index/pid:<%=data.pid%>"><i class="icon icon-comment"></i><span>写评论</span></a></li>
+			<li><a href="#qdlist/index/pid:<%=data.pid%>"><i class="icon icon-all-comment"></i><span>加入心愿单</span></a></li>
 		</ul>
 		<div class="shangpin-content js-tab-content">
 			<p class="p-title">[<%=data.buytime%>]</p>

@@ -391,7 +391,7 @@ textarea{
 .header .btn-share{
   position: absolute;
   right: 10px;
-  top: 0px;
+  top: 1px;
   height: 44px;
   width: 30px;
   display: block;
@@ -852,23 +852,25 @@ textarea{
 }
 .slider-suggest{
   position: absolute;
-  left:10px;
+  left: 10px;
   top: 24px;
-  background:url(../images/arrow.png) right 0 no-repeat;
-  /*width: 90px;*/
-  padding-right: 18px;
+  background: url(../images/suggest.png) center center no-repeat;
+  width: 116px;
+  padding-top: 7px;
   display: inline-block;
-  height: 46px;
+  height: 58px;
+  background-size: contain;
 }
+
 .slider-suggest p{
-  background-color: #7FA7FD;
   height: 23px;
-  color: #fff;
   line-height: 22px;
   font-size: 0.875em;
   overflow: hidden;
   min-width: 72px;
-  padding:0 2px;
+  padding: 0 2px;
+  color: #ed9389;
+  text-align: center;
 }
 .slider-suggest2{
   position: absolute;
@@ -1245,7 +1247,7 @@ textarea{
   height: 34px;
   display: block;
 }
-.qingdan-list li.on .qd-icon .icon{
+.qingdan-list li.on .qd-icon .icon, .qdlist-radio .qd-icon-on .icon{
   background-position:0 -645px; 
 }
 .qingdan-list li.on2 .qd-icon .del-icon{
@@ -1305,14 +1307,14 @@ textarea{
   width: 100%;
 }
 .list-area{
-  width: 94%;
+  width: 96vw;
   margin: 0 auto;
   padding-bottom: 10px;
 }
 .list-area li{
-  width: 46%;
+  width: 44vw;
   height: 196px;
-  margin:10px 5px 0;
+  margin:10px 2vw 0;
   float: left;  
   position: relative;
   overflow: hidden;
@@ -1367,7 +1369,7 @@ textarea{
   border-left:1px #D3D3D3 solid;
   overflow: hidden;
   display: block;
-  color:#7da5ff;
+  color:#ed9389;
   font-size:0.75em;
   line-height: 33px;
   text-align: center;
@@ -1398,7 +1400,6 @@ textarea{
   color:#797575;
   width: 90%;
   margin: 0 auto;
-  height: 30px;
   line-height: 30px;
   font-size: 0.875em;
 }
@@ -1464,20 +1465,35 @@ textarea{
 .shangpin-tab li.on div{
   color:#ed9389;
 }
+
+.shangpin-tab li:first-child div{
+  float:left;
+  left: 1em;
+  position: relative;
+}
+
+.shangpin-tab li:last-child div{
+  float:right;
+  right:1em;
+  position: relative;
+}
+
 .shangpin-tab-highlight{
   height: 5px;
-  border-top:1px solid #E1E1E1;
+  /*border-top:1px solid #E1E1E1;*/
   border-bottom:1px solid #E1E1E1;
-  background-color: #F3F3F3;
+  /*background-color: #F3F3F3;*/
   width: 100%;
 
 }
 .shangpin-tab-highlight li div{
-  width: 3.5em;
-  height:3px;
+  width: 4.4em;
+  height:2px;
   border-radius: 5px;
-  margin:0 auto;
+   margin: 0 0.5em;
 }
+
+
 .shangpin-tab-highlight li.on div{ 
   background-color: #EB938B;  
 }
@@ -1509,21 +1525,33 @@ textarea{
 .shangpin-comment-box .comment-btn-box li:nth-child(1){
   border:none;
 }
+
+.shangpin-comment-box .comment-btn-box li span{
+  float: left;
+  display: inline-block;
+  line-height: 20px;
+  color: #797575;
+  position: relative;
+  left: -15px;
+  font-size: 0.875em;
+}
+
 .shangpin-comment-box .comment-btn-box a{
   display: block;
-  width:20px;
+  width:120px;
   height:20px;
   margin: 4px auto 0;
 }
 .icon-comment{
-  width:40px;
-  height:36px;
+  width: 40px;
+  height: 44px;
   display: block;
-  background-position: 0 -350px;
+  background: url(../images/icon3.png) -470px 0 no-repeat;
+  float:left;
 }
 .icon-heart{
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   display: block;
   background: url(../images/icon2.png) no-repeat;
   background-position: -347px 0;
@@ -1541,10 +1569,11 @@ textarea{
   display: block;
 }
 .icon-all-comment{
-  width:40px;
-  height:35px;
+  width: 45px;
+  height: 48px;
   display: block;
-  background-position: 0 -450px;
+  background: url(../images/icon3.png) -50px -6px no-repeat;
+  float:left;
 }
 
 .comment-list li{
@@ -1765,10 +1794,10 @@ input[disabled],input:disabled{
 }
 .go-list li{
   position: relative;
-  border-bottom:1px #cccccc solid;
+  border-bottom: 1px #cccccc solid;
   padding: 0 5vw 0 5vw;
   width: 100%;
-  /*overflow-x:hidden;*/
+  height: 65px;
 }
 .go-list li a{
   width: 100%;
@@ -1802,13 +1831,14 @@ input[disabled],input:disabled{
   z-index: 9;
 }
 .go-list .p1{
-  line-height: 43px;
+  line-height: 55px;
   color: #302e2e;
-  height: 10vw;
+  height: 55px;
   overflow: hidden;
-  margin-top: 5px;
-  float: right;
+  margin: 5px 0;
+  float: left;
   width: 50vw;
+  font-size: 17px;
 }
 .go-list .p2{
   color: #989797;
@@ -1951,11 +1981,12 @@ input[disabled],input:disabled{
   margin-top: 20px;
 }
 .qdlist-radio{
-  position: absolute;
-  right:0;
+  position: relative;
+  right: 0;
   top: 0;
   width: 40px;
-  height: 70px;
+  height: 40px;
+  float: right;
 }
 .qdlist-radio .qd-icon{
   margin:25px auto 0;
@@ -2007,21 +2038,21 @@ iframe{
 }
 
 @media screen and (max-width: 370px){
-  .list-area {
-    width:296.7px;
-  }
- .list-area li{
-    width: 138.35px;
-  }
+  /*.list-area {*/
+    /*width:296.7px;*/
+  /*}*/
+ /*.list-area li{*/
+    /*width: 138.35px;*/
+  /*}*/
 }
 
 @media screen and (min-width: 370px) and (max-width: 399px){
-   .list-area {
-    width: 344px;
-  }
-   .list-area li{
-    width: 162px;
-  }
+   /*.list-area {*/
+    /*width: 344px;*/
+  /*}*/
+   /*.list-area li{*/
+    /*width: 162px;*/
+  /*}*/
 }
 
 @media screen and (min-width: 400px){
@@ -2031,16 +2062,17 @@ iframe{
   .slider-box2{
     height: 320px;
   }
-  .list-area {
-    width:387px;
-  }
-  .list-area li{
-    width: 183px;
-  }
+  /*.list-area {*/
+    /*width:387px;*/
+  /*}*/
+  /*.list-area li{*/
+    /*width: 183px;*/
+  /*}*/
   .list-top{
     height: 150px;
   }
 }
+
 @media screen and (min-width: 480px){
   .slider-box2{
     width: 400px;
@@ -2051,6 +2083,7 @@ iframe{
     height: 180px;
   }
 }
+
 @media screen and (min-width: 768px){
   body{
     /*font-size:24px;*/
@@ -2058,13 +2091,13 @@ iframe{
   .list-top{
     height: 288px;
   }
-  .list-area li{
-    width:48%;
-    height: 400px;
-  }
-  .list-area li img{
-    height: 300px;
-  }
+  /*.list-area li{*/
+    /*width:48%;*/
+    /*height: 400px;*/
+  /*}*/
+  /*.list-area li img{*/
+    /*height: 300px;*/
+  /*}*/
   .share{
     width: 640px;
     position: absolute;
@@ -2820,4 +2853,14 @@ iframe{
 .wrapper-top{
     height:16.21%;
     width:100vw;
+}
+
+.shangpin-header-title {
+  text-overflow: ellipsis;
+  width: 55vw;
+  display: block;
+  margin: 0 auto;
+  height: 44px;
+  overflow: hidden;
+  white-space: nowrap;
 }
