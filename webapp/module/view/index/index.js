@@ -69,6 +69,7 @@ define('', '', function(require) {
 			if (!App.isLogin()) {
 				return false;
 			}
+            event.stopPropagation();
 			var $elem = $(e.currentTarget);
 			var on = Number($elem.attr("data-on"));
 
@@ -92,6 +93,7 @@ define('', '', function(require) {
 				};
 				var url = "favorite/favoriteAdd";
 				Jser.getJSON(ST.PATH.ACTION + url, _data, function(data) {
+                    $elem.removeClass('mark-icon').addClass('mark-icon-on');
 					Jser.alert("已成功添加到我的关注");
 				}, function() {
 

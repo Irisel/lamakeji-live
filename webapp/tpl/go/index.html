@@ -11,7 +11,7 @@
     </a>
 </div>
 <div class="first-wrapper go-wrapper">
-<ul class="go-list js-go-list">
+<ul class="xinyuan-list js-go-list">
 	<%_.each(data,function(item){%>
 	<%if(item.father_id=="0"){%>
 		<li data-is_recommend="<%=item.is_recommend%>">
@@ -29,7 +29,7 @@
 				<p class="p2"><%=item.pnum%>件商品</p>
 				<div class="go-right"><i class="icon icon-arrows-left"></i></div>
 			</a>
-			<div class="go-remove js-golist-remove" data-fid="<%=item.fid%>">删除</div>
+            <div class="go-remove js-golist-remove" data-fid="<%=item.fid%>"></div>
 		</li>
 	<%}%>
 	<%})%>	

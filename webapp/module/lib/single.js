@@ -98,7 +98,7 @@ define(function(require, exports, module) {
       if(window.localStorage){
           var lama = Jser.getItem('lama');
           var lama_json = JSON.parse(lama);
-          var status = lama_json.status, form = $('.baby-form');
+          var status = lama_json.xinxistatus, form = $('.baby-form');
           if(status=='born'){
               $('#header_date')[0].innerText = '设置出生日期';
               form.removeClass('init-form');

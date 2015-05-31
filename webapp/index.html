@@ -41,12 +41,12 @@
     });
     var ST = {
         PATH:{
-            ACTION:"http://lama.piapiapiapia.com/mamago/index.php/",
+            ACTION:"http://www.lamakeji.com/mamago/index.php/",
             ROOT:"/api",
             IMAGE:"/resource/images/",
             UPLOAD:"",
-            SHARE:"http://lama.piapiapiapia.com/mamago/html/share/share.html",
-            AJAXIMG:"http://lama.piapiapiapia.com/mamago/uploads/"
+            SHARE:"http://www.lamakeji.com/mamago/html/share/share.html",
+            AJAXIMG:"http://www.lamakeji.com/mamago/uploads/"
         }
     }
     </script>
@@ -120,7 +120,7 @@
     function loadlogin(){
         // location.href="http://www.lamakeji.com/mamago/index.php/weixin/getAuth";
         //origin url http://www.lamakeji.com/
-        Jser.getJSON("http://lama.piapiapiapia.com/mamago/index.php/weixin/authCallback?code=0210e8c12bbb6e2016c8c2d694ae708S&state=123","", function(data) {
+        Jser.getJSON("http://www.lamakeji.com/mamago/index.php/weixin/authCallback?code=0210e8c12bbb6e2016c8c2d694ae708S&state=123","", function(data) {
             setwxconfig(data);
         }, function(data) {
             setwxconfig(data);
@@ -141,7 +141,7 @@
     // 获取微信基本信息
     function loadwxconfig() {
         //http://www.lamakeji.com/mamago/index.php/weixin/getAuth
-        Jser.getJSON("http://lama.piapiapiapia.com/mamago/index.php/weixin/getShareSign","", function(data) {
+        Jser.getJSON("http://www.lamakeji.com/mamago/index.php/weixin/getShareSign","", function(data) {
             setwxconfig(data);
             // alert(JSON.stringify(data))
         }, function(data) {
@@ -153,9 +153,8 @@
     function setwxconfig(data){
         if (window.wx) {
                 // wx.config(data);
-                console.log(data);
                 wx.config({
-                 debug: false,
+                 debug: true,
                  appId: data.share.app_id,
                  timestamp: data.share.timestamp,
                  nonceStr: data.share.noncestr,

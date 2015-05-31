@@ -86,6 +86,7 @@ define(function(require, exports) {
                     model: md,
                     action: ac
                 };
+            console.log(md, ac);
             //参数获取转换   将参数字符串'a:123/b:456'转换为json对象{a:123, b:456}
             if (con && con.indexOf(':') > -1) {
                 con.replace(/(\w+)\s*:\s*([\w-]+)/g, function(a, b, c) {

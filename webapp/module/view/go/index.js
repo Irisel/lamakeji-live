@@ -44,6 +44,8 @@ define('', '', function(require) {
 			var offloadFn = function(fn) {
 				setTimeout(fn || noop, 0)
 			}; //
+            var timeout = undefined;
+            var touchend = true;
 			var events = {
 
 				handleEvent: function(event) {
@@ -143,9 +145,23 @@ define('', '', function(require) {
 			});
 
 			$(".js-golist-remove").on("touchstart", function(event) {
-				t.doRemove(event);
-				event.stopPropagation();
+                event.preventDefault();
+                event.stopPropagation();
+                if(touchend){
+                  touchend = false;
+                  timeout = setTimeout(function(){
+                    t.doRemove(event);
+                    touchend = true;
+                  }, 750);
+                }
+
 				// event.preventDefault();
+			});
+
+            $(".js-golist-remove").on("touchend", function(event) {
+               clearTimeout(timeout);
+               if(!touchend)location.href = '#golist/index/fid:' + $(event.target).data('fid');
+               touchend = true;
 			});
 
 
@@ -180,8 +196,9 @@ define('', '', function(require) {
 		doRemove: function(e) {
 			var t = this;
 			var $elem = $(e.currentTarget);
+            var _data = {fid: $elem.attr("data-fid"), type: 1, user_id: Jser.getItem("user_id")};
 			Jser.confirm("确定要删除此go单么？", function() {
-				Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteDelete", "fid=" + $elem.attr("data-fid"), function(data) {
+				Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteDelete", _data, function(data) {
 					$elem.parent().remove();
 				});
 			});

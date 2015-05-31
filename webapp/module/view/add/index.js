@@ -44,7 +44,8 @@ define('', '', function(require) {
 					"user_id": Jser.getItem("user_id"),
 					"owner": 0,
 					"fdescribe": 0,
-					"fromflag": "myself"
+					"fromflag": "myself",
+                    "type": 1
 				};
 				Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteAdd", _data, function(data) {
 					Jser.alert("新建go单成功", function() {

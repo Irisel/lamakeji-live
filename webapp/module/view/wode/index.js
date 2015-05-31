@@ -23,8 +23,31 @@ define('', '', function(require) {
 		},
 		//待优化
 		render: function() {
+            var status = {
+                'born': '已出生',
+                'during': '怀孕中',
+                'prepare': '备孕中',
+                'wondering': '随便逛逛'
+            };
+            var gender = {
+                'female': '女',
+                'male': '男'
+            };
+
 			var t = this,
 				data = t.model.toJSON();
+            if(window.localStorage){
+                var lama = Jser.getItem('lama');
+                if(lama){
+                    lama = JSON.parse(lama);
+                    console.log(lama);
+                    if(lama.xinxistatus == 'during' || lama.xinxistatus == 'born')lama.moreInfo = true;
+                    lama.showStatus = status[lama.xinxistatus];
+                    if(lama.xinxistatus == 'born')lama.showGender = gender[lama.xinxigender];
+                    if(!Jser.getItem('user_id'))data.data.push(lama);
+                    console.log(data.data);
+                }
+            }
 			var html = _.template(t.template, data);
 			t.$el.show().html(html);
 			t.bindEvent();

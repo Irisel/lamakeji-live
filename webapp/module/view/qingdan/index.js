@@ -68,6 +68,18 @@ define('', '', function(require) {
 				data = t.model.toJSON();
 			data.qdmap = qdmap[_index];
             data.period_chosen = qdmap[_index][2].replace('周', '').replace('岁', '') + '~' + qdmap[_index][3];
+            var page_type = t.$el.find(".js-dropdown").find("option:selected").text();
+            data.page.type = page_type?page_type: '全部';
+            user_id = Jser.getItem('user_id');
+            if(global_qd_type ==1 || global_qd_type ==2){
+                var totalpage_size = 0;
+                $.each(data.data, function(key, value){
+                    if(value.user_id == user_id && global_qd_type ==1)totalpage_size+=1;
+                    if(value.user_id != user_id && global_qd_type ==2)totalpage_size+=1;
+                });
+                data.page.pageSize = totalpage_size;
+            }
+
 			var html = _.template(t.template, data);
 			// t.totalPage = Number(data.totalPage);
 			t.$el.show().html(html);
@@ -76,7 +88,7 @@ define('', '', function(require) {
 			t.$el.find(".js-dropdown").change(function() {
 				var $elem = $(this).find("option:selected");
 				t.doDropdown($elem.attr("data-type"));
-				$elem.parent().html($elem.parent().html());
+//				$elem.parent().html($elem.parent().html());
 				return false;
 			});
 
@@ -192,7 +204,9 @@ define('', '', function(require) {
 					if (name.length != 0) {
 						var _data = {
 								"user_id": Jser.getItem('user_id'),
-								"product_name": escape(name)
+								"product_name": encodeURI(name),
+                                "ptmin": qdmap[_index][0],
+				                "ptmax": qdmap[_index][1]
 							},
 							url = "product/addListProduct";
 						Jser.getJSON(ST.PATH.ACTION + url, _data, function(data) {
