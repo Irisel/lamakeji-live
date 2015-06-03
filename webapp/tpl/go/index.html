@@ -7,7 +7,7 @@
         <div class="active-tab">心愿单</div>
     </a>
     <a href="#go/guanzhu" class="tab">
-        <div>关注</div>
+        <div>我的关注</div>
     </a>
 </div>
 <div class="first-wrapper go-wrapper">
@@ -17,7 +17,7 @@
 		<li data-is_recommend="<%=item.is_recommend%>">
 			<a href="#golist/index/fid:<%=item.fid%>">
 				<%=Jser.setItem("fid"+item.fid,item.fname)%>
-                <div>
+                <div class="js-golist-remove" data-fid="<%=item.fid%>">
                 <%if(item.picture){%>
                 <img src="<%=item.picture%>">
                 <%}%>
@@ -29,7 +29,7 @@
 				<p class="p2"><%=item.pnum%>件商品</p>
 				<div class="go-right"><i class="icon icon-arrows-left"></i></div>
 			</a>
-            <div class="go-remove js-golist-remove" data-fid="<%=item.fid%>"></div>
+            <!--<div class="go-remove " ></div>-->
 		</li>
 	<%}%>
 	<%})%>	

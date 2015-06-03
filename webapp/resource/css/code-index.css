@@ -1247,6 +1247,14 @@ textarea{
   height: 34px;
   display: block;
 }
+
+.qd-icon .icon{
+  background-position:0 -611px;
+  width: 38px;
+  height: 34px;
+  display: block;
+}
+
 .qingdan-list li.on .qd-icon .icon, .qdlist-radio .qd-icon-on .icon{
   background-position:0 -645px; 
 }
@@ -1256,6 +1264,14 @@ textarea{
 .qd-icon-on i{
   background-position:0 -645px; 
 }
+li.qindan-customer  .icon{
+    display: none;
+}
+
+li.qindan-customer.on2  .icon{
+    display: block;
+}
+
 .qd-left img{
   width: 48px;
   height: 48px;
@@ -1538,10 +1554,18 @@ textarea{
 
 .shangpin-comment-box .comment-btn-box a{
   display: block;
-  width:120px;
   height:20px;
   margin: 4px auto 0;
 }
+
+.shangpin-comment-box .comment-btn-box li:first-child a{
+    width:82px;
+}
+
+.shangpin-comment-box .comment-btn-box li:last-child a{
+    width:115px;
+}
+
 .icon-comment{
   width: 40px;
   height: 44px;
@@ -1639,7 +1663,8 @@ textarea{
 }
 
 .shangpin-content{
-  margin-bottom:70px;
+  padding-bottom: 70px;
+  background-color: #fafafa;
 }
 
 .shangpin-comment .all-comment{
@@ -2364,27 +2389,28 @@ iframe{
 
 .period-anxis{
   background-color: #f9d6d6;
-  position: absolute;
-  width: 8px;
-  top: 30vw;
+  position: relative;
+  width: 4px;
+  top: 50px;
   height: 225vw;
-  left: 49vw;
   padding-top: 5vw;
+  margin: 0 auto;
 }
 
 .period-anxis .period-circle{
   position: relative;
-  width: 36px;
-  height: 36px;
-  left: -14px;
+  width: 24px;
+  height: 24px;
+  left: -10px;
   background-color: rgba(187, 123, 110, 0.4);
   border: 1px solid transparent;
-  border-radius: 18px;
+  border-radius: 12px;
   margin-bottom: 10vw;
 }
 
 .period-anxis .anxis-head{
   background: url('../images/anxis-head.png')center center no-repeat;
+  background-size: contain;
   width: 100%;
   height: 170%;
   position: absolute;
@@ -2394,13 +2420,13 @@ iframe{
 
 
 .period-anxis .period-circle .period-center{
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border: 1vw solid #f3e7e2;
-  border-radius: 15px;
+  border-radius: 10px;
   position: relative;
-  left: 2px;
-  top: 2px;
+  left: 1px;
+  top: 1px;
   background-color: #e87a7b;
 }
 
