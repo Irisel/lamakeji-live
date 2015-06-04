@@ -11,7 +11,8 @@ define('', '', function(require) {
 		template: H,
 		events: {
 			"click .js-back": "goback",
-			"click .js-share": "doShare"
+			"click .js-share": "doShare",
+            "click .js-mark": "doMark"
 		},
 		initialize: function() {
 			var t = this;
@@ -25,6 +26,7 @@ define('', '', function(require) {
 				data = t.model.toJSON();
 			data.data.fdata = data.fdata;
 			data.data.fid = t.model.get("pars")["fid"];
+            data.data.on = t.model.get("pars")["on"];
 			data.data.guanzhu = t.model.get("pars")["guanzhu"];
 			var html = _.template(t.template, data);
 			t.$el.show().html(html);
@@ -32,7 +34,7 @@ define('', '', function(require) {
 			t.$el.find(".js-list-area").append(_html);
 			Jser.loadimages(t.$el.find(".js-list-area"));
 			t.setShare();
-            Jser.getJSON("http://www.lamakeji.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
+            Jser.getJSON("http://lama.piapiapiapia.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
                 t.$el.find('.strategy-share').html(data.data.detail.fcontent);
             })
 		},
@@ -43,6 +45,57 @@ define('', '', function(require) {
 			} else {
 				window.location.href = "#";
 			}
+		},
+		doMark: function(e) {
+			if (!App.isLogin()) {
+				return false;
+			}
+            event.stopPropagation();
+			var $elem = $(e.currentTarget);
+			var on = Number($elem.attr("data-on"));
+
+			if (on) {
+//                if($elem.data('userid') == '1'){
+//                    Jser.alert("默认的心愿单不能取消关注");
+//                    event.preventDefault();
+//                    return;
+//                }
+                var _data = {fid: $elem.attr("data-fid"), type: 2, user_id: Jser.getItem("user_id")};
+				Jser.confirm("确定要取消关注么？", function() {
+				    Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteDelete", _data, function(data) {
+					    $elem.removeClass('icon-heart-on');
+                        $elem.attr("data-on", 0);
+				});
+			});
+			} else {
+				/*
+				fname:收藏夹名称
+				fdescribe:收藏夹描述
+				user_id：所有者用户主键
+				owner:0：未公开    1：公开
+				father_id:
+				 */
+				var _data = {
+					"fname": $elem.attr("data-fname"),
+					"user_id": Jser.getItem("user_id"),
+					"fdescribe": $elem.attr("data-fdescribe"),
+					"owner": 1,
+					"father_id": $elem.attr("data-fid"),
+					"fromflag": "share"
+				};
+				var url = "favorite/favoriteAdd";
+				Jser.getJSON(ST.PATH.ACTION + url, _data, function(data) {
+                    $elem.addClass('icon-heart-on');
+                    $elem.data('fid', data.fid);
+					Jser.alert("已成功添加到我的关注");
+				}, function() {
+
+				}, "post");
+
+				$elem.attr("data-on", "1");
+
+			}
+			return false;
 		},
 		setShare: function() {
             loadwxconfig();
@@ -71,13 +124,15 @@ define('', '', function(require) {
 			model.set({
 				pars: {
 					"fid": pars.fid,
-					"guanzhu": pars.guanzhu
+					"guanzhu": pars.guanzhu,
+                    "on": pars.on
 				}
 			});
 		} else if (pars.fid) {
 			model.set({
 				pars: {
-					"fid": pars.fid
+					"fid": pars.fid,
+                    "on": pars.on
 				}
 			});
 		}

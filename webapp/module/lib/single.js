@@ -13,11 +13,16 @@ define(function(require, exports, module) {
         var status_access = {
                 prepare: true,
                 wondering: true,
-                borm: false,
+                born: false,
                 during: false
         };
-        $('.status-icon').click(function(e){
-            var status = $(e.target).data('status');
+        var qdmap = {
+		    prepare: ["-365", "-280"],
+		    during: ["-280", "-0"],
+		    born: ["0", ""],
+		    wondering: ["", ""]
+	    };
+        var sign_lama = function(status){
                 if(window.localStorage){
                     var lama = Jser.getItem('lama');
                     if(!lama){
@@ -28,12 +33,36 @@ define(function(require, exports, module) {
                         lama_json.signed = status_access[status];
                         Jser.setItem('lama', JSON.stringify(lama_json));
                     }
-
                 }
+        };
+        var redirect = function(status){
             if(status_access[status]){
                 location.href = "/webapp";
             }else{
                 location.href = "/webapp/date.html";
+            }
+        }
+        var logged = function(status){
+			var _data = {
+					"user_id": Jser.getItem("user_id"),
+                    "ptmin": qdmap[status][0],
+                    "ptmax": qdmap[status][1]
+			};
+			Jser.getJSON(ST.PATH.ACTION + "user/perfectUserInfo", _data, function(data) {
+                sign_lama(status);
+                redirect(status);
+			}, function() {
+
+			}, "post");
+        }
+
+        $('.status-icon').click(function(e){
+            var status = $(e.target).data('status');
+            if(Jser.getItem('user_id')){
+                logged(status);
+            }else{
+                sign_lama(status);
+                redirect(status);
             }
         })
   };
@@ -66,7 +95,22 @@ define(function(require, exports, module) {
           }
       };
       var mobile = mobileType.check();
+      var date_submit = function(lama_json){
+            if(Jser.getItem('user_id')){
+			var _data = {
+					"user_id": Jser.getItem("user_id"),
+                    "sex": lama_json.xinxigender == 'female'?'1': '0',
+                    "birthday": lama_json.xinxichoosen
+			};
+			Jser.getJSON(ST.PATH.ACTION + "user/perfectUserInfo", _data, function(data) {
+                location.href = "/webapp";
+			    }, function() {
 
+			    }, "post");
+            }else{
+                location.href = "/webapp";
+            }
+      };
       if(mobile == 'android'){
           require('plusin/mTime/date')($);
 //          $('.demo').append("<input id='beginTime' class='kbtn'/>");
@@ -121,7 +165,7 @@ define(function(require, exports, module) {
               lama_json.xinxigender = $('.gender-on').data('gender');
               lama_json.signed = true;
               Jser.setItem('lama', JSON.stringify(lama_json));
-              if(lama_json.xinxichoosen && lama_json.xinxigender)location.href = "/webapp";
+              if(lama_json.xinxichoosen && lama_json.xinxigender)date_submit(lama_json);
           })
       }
                 var d = new Date(),vYear = d.getFullYear(),vMon = d.getMonth() + 1,vDay = d.getDate();

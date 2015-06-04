@@ -2,7 +2,7 @@
 <%item.fid&&Jser.setItem("fid"+item.fid,item.fname)%>
 <%item.fid&&Jser.setItem("fdescribe"+item.fid,item.fdescribe)%>
 <li>
-	<a href="#list/index/fid:<%=item.fid%>"  data-fname="<%=item.fname%>" data-fdescribe="<%=item.fdescribe%>">
+	<a href="#list/index/fid:<%=item.fid%>/on:<%=item.is_favorite%>"  data-fname="<%=item.fname%>" data-fdescribe="<%=item.fdescribe%>">
 		<span class="mark-box">
 		<i class="<%=item.is_favorite==1?'mark-icon-on':'mark-icon'%>  js-mark icon" data-userid="<%=item.user_id%>" data-fid="<%=item.fid%>" data-fdescribe="<%=item.fdescribe%>" data-fname="<%=item.fname%>"  data-on="<%=item.is_favorite%>"></i>
 		</span>

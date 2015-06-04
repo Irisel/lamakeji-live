@@ -83,6 +83,8 @@ define('', '', function(require) {
 				Jser.confirm("确定要取消关注么？", function() {
 				    Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteDelete", _data, function(data) {
 					    $elem.removeClass('mark-icon-on').addClass('mark-icon');
+                        var href = $elem.parent().parent().attr('href').replace('on:1', 'on:0');
+                        $elem.parent().parent().attr('href', href);
                         $elem.attr("data-on", 0);
 				});
 			});
@@ -106,6 +108,8 @@ define('', '', function(require) {
 				Jser.getJSON(ST.PATH.ACTION + url, _data, function(data) {
                     $elem.removeClass('mark-icon').addClass('mark-icon-on');
                     $elem.data('fid', data.fid);
+                    var href = $elem.parent().parent().attr('href').replace('on:0', 'on:1');
+                    $elem.parent().parent().attr('href', href);
 					Jser.alert("已成功添加到我的关注");
 				}, function() {
 

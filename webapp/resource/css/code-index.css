@@ -1530,6 +1530,7 @@ li.qindan-customer.on2  .icon{
   right: 0;
   bottom: 0;
   background-color: #fcfcfc;
+  border-top: 1px solid #E1E1E1;
 }
 .shangpin-comment-box .comment-btn-box li{
   width: 50vw;
@@ -2935,7 +2936,7 @@ iframe{
     width:100vw;
 }
 
-.shangpin-header-title {
+.shangpin-header-title, .list-header-title {
   text-overflow: ellipsis;
   width: 55vw;
   display: block;
@@ -2947,11 +2948,11 @@ iframe{
 
 .right-icon{
   width: 7px;
-  height: 20px;
+  height: 38px;
   background: url('../images/icon-right.png') center center no-repeat;
   background-size: contain;
   display: block;
   right: -4vw;
   position: absolute;
-  top: -2.5px;
+  top: -11px;
 }

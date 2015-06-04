@@ -33,19 +33,34 @@ define('', '', function(require) {
                 'female': '女',
                 'male': '男'
             };
-
+            var qdmap = {
+		      prepare: ["-365", "-280"],
+		      during: ["-280", "-0"],
+		      born: ["0", ""],
+		      wondering: ["", ""]
+	        };
 			var t = this,
 				data = t.model.toJSON();
-            if(window.localStorage){
+            if(Jser.getItem('user_id')){
+                var user_status = '';
+                data.data[0].showGender = data.data[0].sex == '1'?'女':'男';
+                $.each(qdmap, function(key, value){
+                    if(data.data[0].ptmin == value[0] && data.data[0].ptmax == value[1]){
+                        user_status = key;
+                    }
+                })
+                if(user_status == 'born')data.data[0].moreInfo = true;
+                data.data[0].xinxichoosen = data.data[0].birthday;
+                data.data[0].showStatus = status[user_status];
+            }
+            else if(window.localStorage){
                 var lama = Jser.getItem('lama');
                 if(lama){
                     lama = JSON.parse(lama);
-                    console.log(lama);
                     if(lama.xinxistatus == 'during' || lama.xinxistatus == 'born')lama.moreInfo = true;
                     lama.showStatus = status[lama.xinxistatus];
                     if(lama.xinxistatus == 'born')lama.showGender = gender[lama.xinxigender];
                     if(!Jser.getItem('user_id'))data.data.push(lama);
-                    console.log(data.data);
                 }
             }
 			var html = _.template(t.template, data);

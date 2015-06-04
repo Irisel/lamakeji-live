@@ -164,6 +164,7 @@ define('', '', function(require) {
 
             $(".js-golist-remove").on("touchend", function(event) {
                clearTimeout(timeout);
+                console.log(event.target);
                if(!touchend)location.href = '#golist/index/fid:' + $(event.target).data('fid');
                touchend = true;
 			});

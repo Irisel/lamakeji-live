@@ -1,6 +1,7 @@
 <div class="header">	
 	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
-	<%=Jser.getItem("fid"+data.fid)%>
+	<span class="list-header-title"><%=Jser.getItem("fid"+data.fid)%></span>
+    <a href="javascript:;" class="js-praise"><i class="js-mark icon icon-heart <%=data.on==1?'icon-heart-on':''%>" data-fid="<%=data.fid%>" data-on="<%=data.on%>"></i></a>
 	<a href="javascript:;" class="btn-share js-share" data-share=""><i class="icon"></i></a>
 </div>
 <div class="list-wrapper">
