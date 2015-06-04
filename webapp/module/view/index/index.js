@@ -74,7 +74,18 @@ define('', '', function(require) {
 			var on = Number($elem.attr("data-on"));
 
 			if (on) {
-				Jser.alert("已收藏过");
+//                if($elem.data('userid') == '1'){
+//                    Jser.alert("默认的心愿单不能取消关注");
+//                    event.preventDefault();
+//                    return;
+//                }
+                var _data = {fid: $elem.attr("data-fid"), type: 2, user_id: Jser.getItem("user_id")};
+				Jser.confirm("确定要取消关注么？", function() {
+				    Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteDelete", _data, function(data) {
+					    $elem.removeClass('mark-icon-on').addClass('mark-icon');
+                        $elem.attr("data-on", 0);
+				});
+			});
 			} else {
 				/*
 				fname:收藏夹名称
@@ -94,6 +105,7 @@ define('', '', function(require) {
 				var url = "favorite/favoriteAdd";
 				Jser.getJSON(ST.PATH.ACTION + url, _data, function(data) {
                     $elem.removeClass('mark-icon').addClass('mark-icon-on');
+                    $elem.data('fid', data.fid);
 					Jser.alert("已成功添加到我的关注");
 				}, function() {
 

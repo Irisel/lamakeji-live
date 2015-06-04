@@ -4,7 +4,7 @@
 <li>
 	<a href="#list/index/fid:<%=item.fid%>"  data-fname="<%=item.fname%>" data-fdescribe="<%=item.fdescribe%>">
 		<span class="mark-box">
-		<i class="<%=item.is_favorite==1?'mark-icon-on':'mark-icon'%>  js-mark icon" data-fid="<%=item.fid%>" data-fdescribe="<%=item.fdescribe%>" data-fname="<%=item.fname%>"  data-on="<%=item.is_favorite%>"></i>
+		<i class="<%=item.is_favorite==1?'mark-icon-on':'mark-icon'%>  js-mark icon" data-userid="<%=item.user_id%>" data-fid="<%=item.fid%>" data-fdescribe="<%=item.fdescribe%>" data-fname="<%=item.fname%>"  data-on="<%=item.is_favorite%>"></i>
 		</span>
 		<img src="resource/images/loadcollection.png" data-src="<%=item.picture%>">
 		<span class="count-btn btn"><%=item.pnum%>件商品</span>

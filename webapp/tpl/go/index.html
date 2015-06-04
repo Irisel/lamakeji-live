@@ -17,7 +17,7 @@
 		<li data-is_recommend="<%=item.is_recommend%>">
 			<a href="#golist/index/fid:<%=item.fid%>">
 				<%=Jser.setItem("fid"+item.fid,item.fname)%>
-                <div class="js-golist-remove" data-fid="<%=item.fid%>">
+                <div class="js-golist-remove" data-fid="<%=item.fid%>" data-userid="<%=item.user_id%>">
                 <%if(item.picture){%>
                 <img src="<%=item.picture%>">
                 <%}%>

@@ -150,7 +150,11 @@ define('', '', function(require) {
                 if(touchend){
                   touchend = false;
                   timeout = setTimeout(function(){
-                    t.doRemove(event);
+                    if($(event.currentTarget).data('userid') == '1'){
+                        Jser.alert("默认的心愿单不能删除");
+                    }else{
+                        t.doRemove(event);
+                    }
                     touchend = true;
                   }, 750);
                 }

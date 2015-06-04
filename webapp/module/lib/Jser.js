@@ -112,7 +112,7 @@ window.Jser = {
                     $("#js-loading").hide();
                     $("body").dequeue();
                     if (!j) {
-                        Jser.alert("与服务器连接异常，请重试")
+                        Jser.alert("与服务器连接异常，请重试");
                         return false;
                     }
                     var s = Number(j.code),

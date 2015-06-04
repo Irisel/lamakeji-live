@@ -1225,10 +1225,10 @@ textarea{
 }
 .qd-right{
   width: 49px;
-  border-left:1px solid #EBEBEB;
+  /*border-left:1px solid #EBEBEB;*/
   height: 94px;
   float: right;
-  background-color:#fafafa; 
+  /*background-color:#fafafa; */
 }
 .product .qd-right{
  height: 54px;
@@ -2580,7 +2580,8 @@ iframe{
 
 .guanzhu-list-txt{
     width:100vw;
-    height:12vw;
+    height:38px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .guanzhu-list-txt div:first-child{
@@ -2588,7 +2589,7 @@ iframe{
     display: inline-block;
     float: left;
     height: inherit;
-    line-height: 12vw;
+    line-height: 38px;
     text-align: center;
     color:#666666;
 }
@@ -2598,14 +2599,16 @@ iframe{
     display:inline-block;
     float:right;
     height: inherit;
-    line-height: 12vw;
+    line-height: 38px;
     text-align: center;
     color:#838383;
+    position: relative;
 }
 
 .guanzhu-list-txt a:link, .guanzhu-list-txt a:visited {
     text-decoration: none;
     color:#838383;
+    position: relative;
 }
 
 
@@ -2628,7 +2631,7 @@ iframe{
   font-weight: 600;
 }
 
-.qs-btn span{
+.qs-btn .down-trigger{
     font-size: 50%;
     display:block;
     background: url("../images/downarrow.png") center center no-repeat;
@@ -2940,4 +2943,15 @@ iframe{
   height: 44px;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.right-icon{
+  width: 7px;
+  height: 20px;
+  background: url('../images/icon-right.png') center center no-repeat;
+  background-size: contain;
+  display: block;
+  right: -4vw;
+  position: absolute;
+  top: -2.5px;
 }

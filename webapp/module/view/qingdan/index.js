@@ -79,7 +79,7 @@ define('', '', function(require) {
                 });
                 data.page.pageSize = totalpage_size;
             }
-
+            data.page.pageSize += (data.customer_data?data.customer_data.length:0);
 			var html = _.template(t.template, data);
 			// t.totalPage = Number(data.totalPage);
 			t.$el.show().html(html);
@@ -177,6 +177,9 @@ define('', '', function(require) {
 							url = "product/deleteListProduct";
 						Jser.getJSON(ST.PATH.ACTION + url, _data, function(data) {
 							$elm.parent().remove();
+                            var page_size = $('.page-size').text();
+                            page_size = page_size?Number(page_size): 0;
+                            if(page_size)$('.page-size').text(page_size - 1);
 						}, function() {
 
 						}, "get");
@@ -213,7 +216,9 @@ define('', '', function(require) {
 							// $elm.parent().remove();
 
 							_html = '<li class="clean product js-product">' + '<div class="qd-left">' + '<p class="qd-title">' + name + '</p>' + '</div>' + '<div class="qd-right js-qd-checked" data-name="' + name + '"><div class="qd-icon del"><i class="icon"></i><i class="del-icon"></i></div></div>' + '</li>'
-
+                            var page_size = $('.page-size').text();
+                            page_size = page_size?Number(page_size): 0;
+                            $('.page-size').text(page_size + 1);
 							t.$el.find(".js-qingdan-list").append(_html);
 						}, function() {
 
