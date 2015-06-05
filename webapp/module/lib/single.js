@@ -35,9 +35,10 @@ define(function(require, exports, module) {
                     }
                 }
         };
-        var redirect = function(status){
+        var redirect = function(status, logged){
             if(status_access[status]){
-                location.href = "/webapp";
+                if(!logged)location.href = "/webapp";
+                if(logged)location.href = "/webapp/#wode/index";
             }else{
                 location.href = "/webapp/date.html";
             }
@@ -50,7 +51,7 @@ define(function(require, exports, module) {
 			};
 			Jser.getJSON(ST.PATH.ACTION + "user/perfectUserInfo", _data, function(data) {
                 sign_lama(status);
-                redirect(status);
+                redirect(status, true);
 			}, function() {
 
 			}, "post");
@@ -62,7 +63,7 @@ define(function(require, exports, module) {
                 logged(status);
             }else{
                 sign_lama(status);
-                redirect(status);
+                redirect(status, false);
             }
         })
   };
@@ -103,7 +104,7 @@ define(function(require, exports, module) {
                     "birthday": lama_json.xinxichoosen
 			};
 			Jser.getJSON(ST.PATH.ACTION + "user/perfectUserInfo", _data, function(data) {
-                location.href = "/webapp";
+                location.href = "/webapp/#wode/index";
 			    }, function() {
 
 			    }, "post");
@@ -165,13 +166,23 @@ define(function(require, exports, module) {
               lama_json.xinxigender = $('.gender-on').data('gender');
               lama_json.signed = true;
               Jser.setItem('lama', JSON.stringify(lama_json));
-              if(lama_json.xinxichoosen && lama_json.xinxigender)date_submit(lama_json);
-          })
+              date_submit(lama_json);
+          });
+           var s = '';
+           if(lama_json.xinxichoosen){
+               s = lama_json.xinxichoosen;
+           }else{
+               var d = new Date(),vYear = d.getFullYear(),vMon = d.getMonth() + 1,vDay = d.getDate();
+               s = vYear+ '-' + (vMon<10 ? "0"  + vMon : vMon)+ '-' +vDay;
+           }
+           if(lama_json.xinxigender){
+               $('.js-' + lama_json.xinxigender).removeClass('gender-off ').addClass('gender-on');
+           }else{
+               $('.js-female').removeClass('gender-off ').addClass('gender-on');
+           }
+           baby_form_date.html(s).data('date', s)
       }
-                var d = new Date(),vYear = d.getFullYear(),vMon = d.getMonth() + 1,vDay = d.getDate();
-                s =vYear+(vMon<10 ? "0" + '-' + vMon : vMon)+ '-' +vDay;
-                baby_form_date.html(s);
-                baby_form_date.data('date', s);
+
   };
     exports.period_init = function(){
         var idx = Jser.getItem('idx') || '1';

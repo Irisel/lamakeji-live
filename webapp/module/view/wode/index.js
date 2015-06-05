@@ -43,13 +43,25 @@ define('', '', function(require) {
 				data = t.model.toJSON();
             if(Jser.getItem('user_id')){
                 var user_status = '';
-                data.data[0].showGender = data.data[0].sex == '1'?'女':'男';
+                var lama_json = {};
+
                 $.each(qdmap, function(key, value){
                     if(data.data[0].ptmin == value[0] && data.data[0].ptmax == value[1]){
                         user_status = key;
+                        lama_json.xinxistatus = user_status;
                     }
                 })
-                if(user_status == 'born')data.data[0].moreInfo = true;
+                if(user_status == 'born' || user_status == 'during')data.data[0].moreInfo = true;
+                if(user_status == 'born'){
+                    data.data[0].data_type = '宝宝生日';
+                    data.data[0].showGender = data.data[0].sex == '1'?'女孩':'男孩';
+                }else if(user_status == 'during'){
+                    data.data[0].data_type = '预产期';
+                }
+                lama_json.xinxichoosen = data.data[0].birthday;
+                lama_json.xinxigender = data.data[0].sex == '1'?'female':'male';
+                lama_json.signed = true;
+                Jser.setItem('lama', JSON.stringify(lama_json));
                 data.data[0].xinxichoosen = data.data[0].birthday;
                 data.data[0].showStatus = status[user_status];
             }
@@ -72,6 +84,7 @@ define('', '', function(require) {
 		},
         doLogout: function(){
             Jser.setItem('user_id', "");
+            Jser.setItem('lama', JSON.stringify({}));
             window.location.reload();
             window.location.href = '#login/index';
         },

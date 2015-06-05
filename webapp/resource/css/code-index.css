@@ -1737,9 +1737,7 @@ li.qindan-customer.on2  .icon{
   line-height: 42px;
   text-align: center;
 }
-.wode-area{
 
-}
 .wode-area .portrait{
   margin: 27px auto 0;
   border:1px solid #F29B76;
@@ -1750,16 +1748,17 @@ li.qindan-customer.on2  .icon{
 }
 .wode-list{
   margin-top: 26px;
-  border-top:1px #959595 solid;
+  border-top:1px #cccccc solid;
 }
 .wode-list li{
   height: 51px;
   width: 100%;
   line-height: 50px;
   color: #9a9a9a;
-  border-bottom:1px #959595 solid;
+  border-bottom:1px #cccccc solid;
   font-size: 0.875em;
-  padding-left: 40px;
+  padding: 0 20px;
+
 }
 .wode-list .name{
   height: 20px;
@@ -1790,6 +1789,7 @@ input[disabled],input:disabled{
   display: block;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 .wode-list li .right{
   margin-right: 28px;
@@ -2946,7 +2946,7 @@ iframe{
   white-space: nowrap;
 }
 
-.right-icon{
+.guanzhu-list-txt .right-icon{
   width: 7px;
   height: 38px;
   background: url('../images/icon-right.png') center center no-repeat;
@@ -2955,4 +2955,15 @@ iframe{
   right: -4vw;
   position: absolute;
   top: -11px;
+}
+
+.wode-list .right-icon{
+  width: 7px;
+  height: 50px;
+  background: url('../images/icon-right.png') center center no-repeat;
+  background-size: contain;
+  display: block;
+  right: -10px;
+  position: absolute;
+  top: -0px;
 }
