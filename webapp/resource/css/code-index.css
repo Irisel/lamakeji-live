@@ -2416,7 +2416,7 @@ iframe{
   height: 170%;
   position: absolute;
   z-index: 1000;
-  top: -20px;
+  top: -15px;
 }
 
 
@@ -2435,7 +2435,7 @@ iframe{
   position: absolute;
   width: 35vw;
   height: 10vw;
-  top: -5vw;
+  top: -7vw;
 }
 
 .row-right{

@@ -50,7 +50,7 @@ define('', '', function(require) {
                         user_status = key;
                         lama_json.xinxistatus = user_status;
                     }
-                })
+                });
                 if(user_status == 'born' || user_status == 'during')data.data[0].moreInfo = true;
                 if(user_status == 'born'){
                     data.data[0].data_type = '宝宝生日';
@@ -69,10 +69,14 @@ define('', '', function(require) {
                 var lama = Jser.getItem('lama');
                 if(lama){
                     lama = JSON.parse(lama);
-                    if(lama.xinxistatus == 'during' || lama.xinxistatus == 'born')lama.moreInfo = true;
+                    if(lama.xinxistatus == 'during' || lama.xinxistatus == 'born'){
+                        lama.moreInfo = true;
+                        lama.data_type = (lama.xinxistatus == 'during')?'预产期':'宝宝生日';
+                    }
+
                     lama.showStatus = status[lama.xinxistatus];
                     if(lama.xinxistatus == 'born')lama.showGender = gender[lama.xinxigender];
-                    if(!Jser.getItem('user_id'))data.data.push(lama);
+                    data.data.push(lama);
                 }
             }
 			var html = _.template(t.template, data);

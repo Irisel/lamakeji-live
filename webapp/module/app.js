@@ -76,7 +76,6 @@ define(function(require, exports) {
         },
         //按照module/action(/conditions) 格式
         loadmodel: function(md, ac, con) {
-
             if (!ac) ac = "index";
             var t = this;
             this.nav.initNav(md);
@@ -92,13 +91,13 @@ define(function(require, exports) {
                     if (b != "model" && b != "action") b && (cj[b] = c);
                 });
             }
-            //动态生成容器
+            //动态生成容器;
             if (!el.length) B.$("<section />").attr("id", md + "_" + ac).appendTo($("#js-wrap"));
             B.$("#js-wrap").children("section").hide();
             //加载model目录下对应的模块
 
             var view = md + ac;
-            if(con=='log:in' || con=='log:out'){
+            if(cj.log =='in' || cj.log =='out'){
                 delete App.Views['wodeindex'];
                 delete App.Views['goindex'];
             }
@@ -114,7 +113,8 @@ define(function(require, exports) {
                         // location.hash="404";
                     }
                 })
-            } else {
+            }
+            else {
                 var result = false;
                 if (md == "go" || md == "add" || md == "forget") {
                     result = true;
@@ -126,13 +126,13 @@ define(function(require, exports) {
                         }
                     });
                 }
-
                 if (result) {
                     delete cj["model"];
                     delete cj["action"];
                     App.Views[view].cj = $.extend({}, cj);
                     App.Views[view].changePars && App.Views[view].changePars(cj);
                 } else {
+                    if(md == "index")App.Views[view].syncMark(cj);
                     App.Views[view].$el.show();
                     scrollTop();
                 }

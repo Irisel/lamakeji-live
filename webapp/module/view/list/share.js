@@ -22,7 +22,7 @@ define('', '', function(require) {
 			var t = this,
 				data = t.model.toJSON();
 			var html = _.template(t.template, data);
-            console.log(data.data.detail);
+//            console.log(data.data.detail);
 			t.$el.show().html(html);
             t.$el.find('.strategy-share').html(data.data.detail.fcontent);
 		},

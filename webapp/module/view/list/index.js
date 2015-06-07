@@ -14,6 +14,7 @@ define('', '', function(require) {
 			"click .js-share": "doShare",
             "click .js-mark": "doMark"
 		},
+        refresh: 0,
 		initialize: function() {
 			var t = this;
 			t.listenTo(t.model, "sync", function() {
@@ -24,6 +25,8 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
+            t.refresh_on = null;
+            t.refresh_off = null;
 			data.data.fdata = data.fdata;
 			data.data.fid = t.model.get("pars")["fid"];
             data.data.on = t.model.get("pars")["on"];
@@ -34,19 +37,22 @@ define('', '', function(require) {
 			t.$el.find(".js-list-area").append(_html);
 			Jser.loadimages(t.$el.find(".js-list-area"));
 			t.setShare();
-            Jser.getJSON("http://lama.piapiapiapia.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
+            Jser.getJSON("http://www.lamakeji.com/mamago/index.php/favorite/getDetail?favoriteId="+ data.data.fid,"", function(data) {
                 t.$el.find('.strategy-share').html(data.data.detail.fcontent);
             })
 		},
 		goback: function() {
-			var t = this;
-			if (window.history && window.history.length > 2) {
-				window.history.back();
-			} else {
-				window.location.href = "#";
-			}
+            var t = this;
+            var refresh = '/';
+            if(t.refresh_on){
+                refresh+= 'refresh_on:' + t.refresh_on;
+            }else if(t.refresh_off){
+                refresh+= 'refresh_off:' + t.refresh_off;
+            }
+			window.location.href = 'http://www.lamakeji.com/webapp/#index/index' + refresh;
 		},
 		doMark: function(e) {
+            var t = this;
 			if (!App.isLogin()) {
 				return false;
 			}
@@ -65,6 +71,8 @@ define('', '', function(require) {
 				    Jser.getJSON(ST.PATH.ACTION + "favorite/favoriteDelete", _data, function(data) {
 					    $elem.removeClass('icon-heart-on');
                         $elem.attr("data-on", 0);
+                        t.refresh_off = _data.fid;
+                        t.refresh_on = null;
 				});
 			});
 			} else {
@@ -88,6 +96,8 @@ define('', '', function(require) {
                     $elem.addClass('icon-heart-on');
                     $elem.data('fid', data.fid);
 					Jser.alert("已成功添加到我的关注");
+                    t.refresh_off = null;
+                    t.refresh_on = _data.father_id;
 				}, function() {
 
 				}, "post");

@@ -25,7 +25,6 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
-            console.log(data);
 			var html = _.template(t.template, data);
 			t.$el.show().html(html);
 			var h = Math.max($(document).height() - t.$el.height() - 20, 20);
@@ -111,7 +110,7 @@ define('', '', function(require) {
 					// determine if scrolling test has run - one time test
 					if (!isScrolling) {
 						_x = Math.abs(delta.x);
-						console.log(_x)
+//						console.log(_x)
 						isScrolling = _x > 30 && _x > Math.abs(delta.y);
 					} else {
 						event.preventDefault();
@@ -164,7 +163,7 @@ define('', '', function(require) {
 
             $(".js-golist-remove").on("touchend", function(event) {
                clearTimeout(timeout);
-                console.log(event.target);
+//                console.log(event.target);
                if(!touchend)location.href = '#golist/index/fid:' + $(event.target).data('fid');
                touchend = true;
 			});

@@ -25,6 +25,7 @@ define('', '', function(require) {
 		events: {
 			"click .js-mark": "doMark"
 		},
+        last_page: null,
 		initialize: function() {
 			var t = this;
 			indexSelf = this;
@@ -39,7 +40,7 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
-            console.log(data);
+            t.last_page = data.data;
 			var html = _.template(t.template, data);
 			t.totalSize = Number(data.page.totalSize);
 			t.totalPage = Math.ceil(t.totalSize / data.page.pageSize);
@@ -50,9 +51,17 @@ define('', '', function(require) {
 			});
 			t.bindEvent();
 		},
+        syncMark: function(cj){
+            if(cj.refresh_on){
+                $('#index_index .index-list i[data-fid="'+ cj.refresh_on +'"]').removeClass('mark-icon-on').addClass('mark-icon-on');
+            }else if(cj.refresh_off){
+                $('#index_index .index-list i[data-fid="'+ cj.refresh_off + '"]').removeClass('mark-icon-on').addClass('mark-icon');
+            }
+        },
 		syncRender: function() {
 			var t = this,
 				data = t.model.toJSON();
+            if(t.last_page == data.data)return;
 			t.isLoad = false;
 			var _html = _.template(list_tpl, data);
 			var $list = t.$el.find(".js-index-list");
@@ -169,7 +178,11 @@ define('', '', function(require) {
 	});
 	return function(pars) {
 		model.set({
-			action: 'favorite/publicFavoriteList'
+			action: 'favorite/publicFavoriteList',
+            pars: {
+			    "user_id": Jser.getItem("user_id"),
+			    "fromflag": "myselfandshare"
+		    }
 		});
 		return new V({
 			el: $("#" + pars.model + "_" + pars.action)

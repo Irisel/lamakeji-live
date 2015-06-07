@@ -243,7 +243,6 @@ window.Jser = {
         if (!$.isEmptyObject(params)) {
             $.extend(WeiXinShare, params);
         }
-        alert(JSON.stringify(WeiXinShare));
         if (window.wx) {
             weixin6bySet();
         }
