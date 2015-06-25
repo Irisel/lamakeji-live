@@ -52,7 +52,8 @@ define('', '', function(require) {
 			var reg = /^(\d{1,4}\-)?(13|15|17|18){1}\d{9}$/;
 			if (reg.test(v1)) {
 				var _data = {
-					"uname": v1
+					"uname": v1,
+                    "type": 'register'
 				}
 				Jser.getJSON(ST.PATH.ACTION + "user/sendEmail", _data, function(data) {
 					Jser.alert(data.msg);

@@ -123,8 +123,8 @@ textarea{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.7); 
-  z-index: 100; 
+  background-color: rgba(0,0,0,0.7);
+  z-index: 100;
 }
 .pop-inner{
   overflow: hidden;
@@ -135,7 +135,7 @@ textarea{
   transform:translate(-50%, -50%);
   width: 240px;
   border-radius: 5px;
-  background-color: #fff; 
+  background-color: #fff;
   padding-bottom: 46px;
 }
 .pop-msg{
@@ -197,7 +197,7 @@ textarea{
 }
 .show{
   display: block;
-} 
+}
 .hide{
   display: none;
 }
@@ -253,16 +253,16 @@ textarea{
   bottom: 0;
   background-color:rgba(0,0,0,0.8);
 }
-.share{    
+.share{
  width: 100%;
- height: 100%;  
+ height: 100%;
 }
 /*常用属性*/
 .wrap{
   width: 100%;
   min-height: 100%;
   -webkit-overflow-scrolling:touch;
-  overflow-x:hidden; 
+  overflow-x:hidden;
   position: relative;
 }
 .nav{
@@ -270,12 +270,12 @@ textarea{
   bottom:0;
   left: 0;
   z-index:10;
-  width: 100%;  
-  height:50px; 
-  background:#f6f0f0; 
+  width: 100%;
+  height:50px;
+  background:#f6f0f0;
 }
-.nav li{  
-  text-align: center;  
+.nav li{
+  text-align: center;
   height: 50px;
   overflow: hidden;
 }
@@ -369,7 +369,7 @@ textarea{
   padding: 12px 0 0 6px;
   right: 0;
   top:0;
-  color:#ffffff; 
+  color:#ffffff;
 }
 .header .btn-back{
   position: absolute;
@@ -421,7 +421,7 @@ textarea{
   z-index: 9;
 }
 .first-wrapper{
-  padding-bottom:50px;    
+  padding-bottom:50px;
 }
 .second-wrapper{
   padding: 44px 0 50px;
@@ -522,7 +522,7 @@ textarea{
   border-radius: 3px;
 }
 .login-wrapper{
-  padding-bottom:50px; 
+  padding-bottom:50px;
 }
 .login-area{
   width: 230px;
@@ -597,11 +597,11 @@ textarea{
  display: inline-block;
 }
 .xinxi-wrapper{
-  padding-bottom:50px; 
+  padding-bottom:50px;
 }
 .xinxi-top{
   width: 100%;
-  padding-top: 23px;  
+  padding-top: 23px;
 }
 .xinxi-top p{
   line-height: 32px;
@@ -639,21 +639,21 @@ textarea{
   cursor: pointer;
   background-color:#fff;
   border-radius: 3px;
-  border:1px #959595 solid; 
-  color: #959595; 
+  border:1px #959595 solid;
+  color: #959595;
   text-align: center;
   line-height: 28px;
   height: 28px;
   font-size: 0.875em;
 }
 .xinxi-status li:nth-child(1){
- background:url(../images/info1.png) 15px center no-repeat; 
+ background:url(../images/info1.png) 15px center no-repeat;
 }
 .xinxi-status li:nth-child(2){
- background:url(../images/info2.png) 19px center no-repeat; 
+ background:url(../images/info2.png) 19px center no-repeat;
 }
 .xinxi-status li:nth-child(3){
- background:url(../images/info3.png) 15px center no-repeat; 
+ background:url(../images/info3.png) 15px center no-repeat;
  margin-bottom:0;
 }
 .xinxi-radio{
@@ -663,7 +663,7 @@ textarea{
   border-radius: 50%;
   padding: 5px;
   float: left;
-  margin-top:2px; 
+  margin-top:2px;
 }
 .xinxi-radio-small{
   width: 100%;
@@ -672,7 +672,7 @@ textarea{
   border-radius: 50%;
 }
 .xinxi-status-btn{
- 
+
 }
 .xinxi-status li.on .xinxi-radio{
   border: 2px solid #959595;
@@ -710,7 +710,7 @@ textarea{
 .xinxi-gender{
   width: 150px;
   margin: 0 auto;
-  padding-top:10px; 
+  padding-top:10px;
 }
 .xinxi-gender li{
   float: left;
@@ -721,15 +721,15 @@ textarea{
   position: relative;
 }
 .xinxi-gender li:nth-child(1){
-   background:url(../images/info4.png) 0 0 no-repeat; 
+   background:url(../images/info4.png) 0 0 no-repeat;
 }
 .xinxi-gender li:nth-child(2){
-   background:url(../images/info5.png) 0 0 no-repeat; 
+   background:url(../images/info5.png) 0 0 no-repeat;
 }
 .xinxi-gender .gender-checked{
   width: 16px;
   height: 13px;
-  background:url(../images/checked.png) 0 0 no-repeat; 
+  background:url(../images/checked.png) 0 0 no-repeat;
   position: absolute;
   top:36px;
   left:36px;
@@ -766,7 +766,7 @@ textarea{
   display: block;
 }
 .index-wrapper{
-  padding-bottom:50px; 
+  padding-bottom:50px;
   max-width: 480px;
   margin: 0 auto;
 }
@@ -882,13 +882,13 @@ textarea{
   height: 60px;
   text-align: center;
   color: #fff;
-  background-color:#7FA7FD; 
+  background-color:#7FA7FD;
 }
-.slider-suggest2 .p1{ 
+.slider-suggest2 .p1{
   font-size: 0.7em;
   margin-top:12px;
 }
-.slider-suggest2 .p2{   
+.slider-suggest2 .p2{
    font-size: 0.875em;
 }
 .mark-box{
@@ -923,7 +923,7 @@ textarea{
   line-height: 22px;
   padding: 0 7px;
   color: #fff;
-  background-color: #7ea7fd; 
+  background-color: #7ea7fd;
   position: absolute;
   z-index: 3;
   left: 16px;
@@ -989,12 +989,12 @@ textarea{
   left:0px;
   top:44px;
   height: 140px;
-  width: 138px;  
+  width: 138px;
   z-index: 9;
 }*/
 .arrow-up{
-  width:0;   
-  height:0; 
+  width:0;
+  height:0;
   position: relative;
   left:10px;
   border-left:7px solid transparent;
@@ -1037,7 +1037,7 @@ textarea{
 }
 .dropdown-icon-box{
   float: left;
-  margin-top:2px; 
+  margin-top:2px;
 }
 .qingdan-top{
   width:320px;
@@ -1050,8 +1050,8 @@ textarea{
   width: 46px;
   height: 46px;
   overflow: hidden;
-  text-align: center; 
-  color:#719DF7; 
+  text-align: center;
+  color:#719DF7;
   line-height: 46px;
 }
 .qd-top-on{
@@ -1132,11 +1132,11 @@ textarea{
   width: 100%;
   max-width: 480px;
   margin: 0 auto;
-  position: relative;  
+  position: relative;
 }
 .qingdan-slide img{
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
 .qs-explain{
   position: absolute;
@@ -1144,7 +1144,7 @@ textarea{
   height: 26.5px;
   width: 100%;
   bottom: 0px;
-  left: 0px; 
+  left: 0px;
 }
 .qs-txt{
   text-indent: 0.5em;
@@ -1209,7 +1209,7 @@ textarea{
   position: relative;
 }
 .qingdan-list li.product{
-  height: 55px; 
+  height: 55px;
 }
 .qd-left{
   position: absolute;
@@ -1217,7 +1217,7 @@ textarea{
   right: 49px;
   top: 0;
   bottom: 0;
-  padding:12px 14px 0 0; 
+  padding:12px 14px 0 0;
 }
 .product .qd-left{
   padding:0 0 0 65px;
@@ -1234,12 +1234,12 @@ textarea{
  height: 54px;
 }
 .qd-icon{
-  margin:36px auto 0;  
+  margin:36px auto 0;
   width: 19px;
   position: relative;;
 }
 .product .qd-icon{
-  margin:18px auto 0; 
+  margin:18px auto 0;
 }
 .qd-icon .icon{
   background-position:0 -611px;
@@ -1256,13 +1256,13 @@ textarea{
 }
 
 .qingdan-list li.on .qd-icon .icon, .qdlist-radio .qd-icon-on .icon{
-  background-position:0 -645px; 
+  background-position:0 -645px;
 }
 .qingdan-list li.on2 .qd-icon .del-icon{
   display: block;
 }
 .qd-icon-on i{
-  background-position:0 -645px; 
+  background-position:0 -645px;
 }
 li.qindan-customer  .icon{
     display: none;
@@ -1296,7 +1296,7 @@ li.qindan-customer.on2  .icon{
   background-color: #E1E1E1;
 }
 .list-wrapper .list-loading{
-  background-color:#fff; 
+  background-color:#fff;
 }
 .list-top{
   height: 120px;
@@ -1315,7 +1315,7 @@ li.qindan-customer.on2  .icon{
   height: 30px;
   width: 100%;
   bottom: 0px;
-  left: 0px; 
+  left: 0px;
   text-align: center;
   line-height: 30px;
   color: #6b6b6b;
@@ -1331,16 +1331,16 @@ li.qindan-customer.on2  .icon{
   width: 44vw;
   height: 196px;
   margin:10px 2vw 0;
-  float: left;  
+  float: left;
   position: relative;
   overflow: hidden;
-  border-radius: 5px;  
+  border-radius: 5px;
   box-shadow: 1px 1px 1px rgb(213,208,208);
-  background-color: #fff; 
+  background-color: #fff;
 }
 .list-area li img{
   width: 100%;
-  height: 123px;  
+  height: 123px;
   overflow: hidden;
 }
 .list-area li p{
@@ -1351,7 +1351,7 @@ li.qindan-customer.on2  .icon{
   min-height: 33px;
   line-height: 22px;
   margin-left: 10px;
-  color:#a8a8a8;   
+  color:#a8a8a8;
 }
 .list-area li p.word{
   color: #636363;
@@ -1422,11 +1422,11 @@ li.qindan-customer.on2  .icon{
 .shangpin-recom{
     border-top:1px solid #E1E1E1;
     width: 100%;
-   background: #fff url("../images/line.png") 0 0 repeat-x; 
+   background: #fff url("../images/line.png") 0 0 repeat-x;
    height: 163px;
    padding-left: 12px;
 }
-.shangpin-recom .title{  
+.shangpin-recom .title{
   line-height: 41px;
   height: 41px;
   color:#797575;
@@ -1442,19 +1442,19 @@ li.qindan-customer.on2  .icon{
 .shangpin-recom .recom-box li{
   float:left;
   margin-left:23px;
-  width: 92px;   
+  width: 92px;
   height: 92px;
-  position: relative;  
+  position: relative;
 }
 .shangpin-recom .recom-box li:nth-child(1){
   margin-left:0px;
 }
 .shangpin-recom .recom-box img{
-  width: 100%;   
+  width: 100%;
   height: 100%;
-  border-radius: 3px; 
-  
-  box-shadow: 2px 2px 5px #ADADAD; 
+  border-radius: 3px;
+
+  box-shadow: 2px 2px 5px #ADADAD;
 }
 .shangpin-recom .recom-box .txt{
   position: absolute;
@@ -1466,17 +1466,17 @@ li.qindan-customer.on2  .icon{
   max-height: 40px;
   overflow: hidden;
   background-color:#494949;
-  color:#fff; 
-  font-size: 0.75em;  
+  color:#fff;
+  font-size: 0.75em;
 }
 .shangpin-tab{
-  width: 100%;  
-} 
+  width: 100%;
+}
 .shangpin-tab div{
   text-align: center;
   color:#797575;
   height: 24px;
-  font-size:0.875em; 
+  font-size:0.875em;
 }
 .shangpin-tab li.on div{
   color:#ed9389;
@@ -1510,8 +1510,8 @@ li.qindan-customer.on2  .icon{
 }
 
 
-.shangpin-tab-highlight li.on div{ 
-  background-color: #EB938B;  
+.shangpin-tab-highlight li.on div{
+  background-color: #EB938B;
 }
 
 .shangpin-comment .title{
@@ -1606,7 +1606,7 @@ li.qindan-customer.on2  .icon{
   height: 120px;
 }
 .comment-list .sleft{
-  width: 70px;  
+  width: 70px;
   padding-top: 20px;
 }
 .comment-list .sleft img{
@@ -1655,7 +1655,7 @@ li.qindan-customer.on2  .icon{
 }
 .btn-tag{
   height: 24px;
-  background-color:#7FA7FD; 
+  background-color:#7FA7FD;
   line-height: 24px;
   padding: 0 10px;
   border-radius:10px;
@@ -1697,7 +1697,7 @@ li.qindan-customer.on2  .icon{
   left: 0;
   right:0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.7); 
+  background-color: rgba(0,0,0,0.7);
 }
 .comment-import-box .title{
   height: 80px;
@@ -1710,7 +1710,7 @@ li.qindan-customer.on2  .icon{
 .comment-close{
   height: 40px;
   width: 40px;
-  float: right;  
+  float: right;
   background: url(../images/close.png) center center no-repeat;
 }
 .comment-ipt-box{
@@ -1718,7 +1718,7 @@ li.qindan-customer.on2  .icon{
   width: 320px;
 }
 .comment-ipt{
-  margin-top:5px; 
+  margin-top:5px;
   height:30px;
   padding:5px 10px;
   width:  235px;
@@ -1729,7 +1729,7 @@ li.qindan-customer.on2  .icon{
 .comment-ipt input{
   height: 20px;
   width: 215px;
-  display: block;  
+  display: block;
 }
 .btn-comment{
   width: 56px;
@@ -1937,7 +1937,7 @@ input[disabled],input:disabled{
   display: block;
   width: 36px;
   height: 30px;
-  background-position: 0 -680px; 
+  background-position: 0 -680px;
 }
 .go-new{
   display: block;
@@ -1996,7 +1996,7 @@ input[disabled],input:disabled{
   text-align: center;
   margin:0 auto;
   color: #f29c9f;
-  border:1px solid #f29c9f;  
+  border:1px solid #f29c9f;
   border-radius: 4px;
 }
 .forget-step{
@@ -2005,10 +2005,10 @@ input[disabled],input:disabled{
 .forget-ipt{
   margin: 44px auto 0;
   position: relative;
-  width: 243px; 
+  width: 243px;
   height: 25px;
   color: #707070;
-  border-bottom:1px #9a9a9a solid; 
+  border-bottom:1px #9a9a9a solid;
   text-align: center;
   line-height: 24px;
 }
@@ -2966,4 +2966,30 @@ iframe{
   right: -10px;
   position: absolute;
   top: -0px;
+}
+
+.js-marsk {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 13.8px 20.4px;
+  /* height: 50px; */
+}
+
+.js-marsk p:first-child {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 9.6px;
+    font-weight: 600;
+    padding:0;
+}
+
+.js-marsk p{
+    font-size: 13px;
+    line-height: 13px;
+    margin:0;
+    padding:0;
+    color: #ffffff;
+    display: block;
 }

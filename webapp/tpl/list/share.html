@@ -18,8 +18,12 @@
         </div>
     </div>
 	<%if(data.detail.fpicture){%>
-		<div>
+		<div style="position:relative">
 			<img src="<%=data.detail.fpicture%>" />
+            <div class="js-marsk">
+                <p><%=data.detail.fname%></p>
+                <p>阅读量 <%=data.detail.hitnum%></p>
+            </div>
 		</div>
 	<%}%>
     <div class="strategy-share">

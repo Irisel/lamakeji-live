@@ -3,7 +3,7 @@
         <%_.each(data,function(item){%>
             <li>
                 <a href="javascript:;" data-id="<%=item.id%>" data-cdescribe="<%=item.cdescribe%>">
-                    <img src="resource/images/loadbanner.png" data-src="<%=ST.PATH.AJAXIMG+item.cpicture%>" alt=""/>
+                    <img src="resource/images/loadbanner.png" data-src="<%=item.cpicture%>" alt=""/>
                 </a>
             </li>
         <%})%>
