@@ -38,9 +38,13 @@ define('', '', function(require) {
 					Jser.setItem("uname", data.data.uname);
 					Jser.setItem("password", _locData["password"]);
 					Jser.setItem("user_id", data.data.user_id);
-
+                    Jser.alert("注册成功", function() {
+                        window.location.hash = "#index/index";
+                    });
 				}, function() {
+                   Jser.alert("注册失败", function() {
 
+                   });
 				}, "post");
 			}
 		},
@@ -54,7 +58,7 @@ define('', '', function(require) {
 				var _data = {
 					"uname": v1,
                     "type": 'register'
-				}
+				};
 				Jser.getJSON(ST.PATH.ACTION + "user/sendEmail", _data, function(data) {
 					Jser.alert(data.msg);
 				}, function() {

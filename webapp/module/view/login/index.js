@@ -41,7 +41,7 @@ define('', '', function(require) {
 					Jser.setItem("uname", data.data.uname);
 					Jser.setItem("password",_locData["password"]);
 					Jser.setItem("user_id", data.data.user_id);
-					window.location.href = '#wode/index/log:in';
+					window.location.href = '#index/index';
 				}, function() {
 
 				}, "post");

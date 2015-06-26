@@ -4,9 +4,9 @@
     <list default="true" id="5b21af73-2882-4996-bbde-172a2e5d82e9" name="Default" comment="" />
     <ignored path="lamakeji-live.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435243593168" ignored="false" />
+    <file path="/Dummy.txt" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435311290252" ignored="false" />
     <file path="/weixinshare.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1433002461135" ignored="false" />
-    <file path="/a.dummy" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435223072307" ignored="false" />
+    <file path="/a.dummy" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435289826996" ignored="false" />
     <file path="/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435232004720" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432629493785" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/css/main.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432556526937" ignored="false" />
@@ -20,7 +20,7 @@
     <file path="/main.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131817628" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432630131534" ignored="false" />
     <file path="/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432132070022" ignored="false" />
-    <file path="/index.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435243664932" ignored="false" />
+    <file path="/index.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435301459292" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/pc.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432629954501" ignored="false" />
     <file path="/Jser.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1433002423392" ignored="false" />
     <file path="/guanzhu.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432737943982" ignored="false" />
@@ -96,33 +96,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="36" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/tpl/shangpin/view/comment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/tpl/index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/tpl/index/view/list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,16 +108,61 @@
       <file leaf-file-name="slider.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/tpl/index/view/slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.6785714">
+            <state line="1" column="28" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/module/view/sign/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="29" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0261708">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/sign/index.js">
+        <entry file="file://$PROJECT_DIR$/webapp/module/view/forget/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+            <state line="42" column="10" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/view/login/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="41" selection-start="1106" selection-end="1113" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/view/wode/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="50" selection-start="3194" selection-end="3232" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jser.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="38" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/module/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="35" selection-start="4798" selection-end="4798" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,34 +171,16 @@
       <file leaf-file-name="share.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/tpl/list/share.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="585" selection-end="585" vertical-scroll-proportion="-10.0">
+            <state line="20" column="39" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code-index.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="code-index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/resource/css/code-index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2982" column="25" selection-start="49770" selection-end="49770" vertical-scroll-proportion="0.5289256">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="share.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/list/share.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strategy.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/list/strategy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2982" column="25" selection-start="49770" selection-end="49770" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,14 +204,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/webapp/tpl/wode/index.html" />
-        <option value="$PROJECT_DIR$/webapp/module/view/wode/index.js" />
         <option value="$PROJECT_DIR$/webapp/period.html" />
         <option value="$PROJECT_DIR$/webapp/date.html" />
         <option value="$PROJECT_DIR$/webapp/index.html" />
         <option value="$PROJECT_DIR$/webapp/module/lib/Jser.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/go/index.js" />
-        <option value="$PROJECT_DIR$/webapp/module/view/login/index.js" />
         <option value="$PROJECT_DIR$/webapp/module/app.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/index/index.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/list/index.js" />
@@ -219,6 +216,9 @@
         <option value="$PROJECT_DIR$/webapp/tpl/list/share.html" />
         <option value="$PROJECT_DIR$/webapp/resource/css/code-index.css" />
         <option value="$PROJECT_DIR$/webapp/tpl/index/view/slider.html" />
+        <option value="$PROJECT_DIR$/webapp/module/view/wode/index.js" />
+        <option value="$PROJECT_DIR$/webapp/module/view/login/index.js" />
+        <option value="$PROJECT_DIR$/webapp/module/view/forget/index.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/sign/index.js" />
       </list>
     </option>
@@ -255,6 +255,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -923,18 +924,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sign" />
+              <option name="myItemId" value="wode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lamakeji-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jinkela" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flight" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -1011,13 +1037,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.83648497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26093918" sideWeight="0.83648497" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16351502" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1090,34 +1116,11 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/resource/images/qingdan_date.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="46" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tourist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tpl/comment/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tpl/comment/view/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="503" selection-end="503" vertical-scroll-proportion="-8.142858" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/list/view/strategy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1125,37 +1128,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/shangpin/view/comment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="36" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="48" column="36" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/list/strategy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/list/share.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="13" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/index/view/list.html">
@@ -1165,30 +1158,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/view/sign/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/index/view/slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.6785714">
+        <state line="1" column="28" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/tpl/list/share.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="585" selection-end="585" vertical-scroll-proportion="-10.0">
+        <state line="20" column="39" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/resource/css/code-index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2982" column="25" selection-start="49770" selection-end="49770" vertical-scroll-proportion="0.5289256">
+        <state line="2982" column="25" selection-start="49770" selection-end="49770" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="35" selection-start="4798" selection-end="4798" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="38" selection-start="3837" selection-end="3837" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/wode/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="50" selection-start="3194" selection-end="3232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="41" selection-start="1106" selection-end="1113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/forget/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="10" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/view/sign/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="29" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0261708">
           <folding />
         </state>
       </provider>

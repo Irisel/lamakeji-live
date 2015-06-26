@@ -31,7 +31,11 @@ define('', '', function(require) {
 					"uname": tel
 				};
 				Jser.getJSON(url, _data, function() {
-					Jser.confirm("验证码发送成功", function() {}, function() {});
+					Jser.confirm("验证码发送成功", function() {
+
+                    }, function() {
+
+                    });
 				}, function() {
 
 				}, "post");
@@ -49,9 +53,15 @@ define('', '', function(require) {
 					_data[i].value = val;
 					_locData[name] = val;
 				});
+
 				Jser.getJSON(ST.PATH.ACTION + "user/findPassword", _data, function(data) {
-					Jser.setItem("password", _locData["password"]);
-                    Jser.confirm(data.msg, function() {}, function() {});
+                    Jser.setItem("uname", _data.uname);
+                    Jser.setItem("user_id", '');
+                    Jser.confirm(data.msg, function() {
+                        window.location.href = '#login/index';
+                    }, function() {
+
+                    });
 				}, function() {
 
 				}, "post");
