@@ -69,7 +69,7 @@ window.Jser = {
         return src;
     },
     log: function(str) {
-        window.console && window.console.log(str);
+//        window.console && window.console.log(str);
     },
     setItem: function(key, name) {
         window.localStorage.setItem(key, name);
@@ -115,7 +115,7 @@ window.Jser = {
                         Jser.alert("与服务器连接异常，请重试");
                         return false;
                     }
-                    var s = Number(j.code),
+                    var s = Number(j.code || j.errorcode),
                         flag = false;
                     if (typeof j.retcode != "undefined") {
                         s = 0;

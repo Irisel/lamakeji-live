@@ -3011,11 +3011,15 @@ iframe{
     position: relative;
 }
 .goshare-wrapper .goshare-bg{
-    background: url('../images/goshare_bg.png') left top no-repeat;
     width:100vw;
     height:79.1vw;
-    background-size:contain;
     position: absolute;
+    overflow:hidden;
+}
+
+.goshare-wrapper .goshare-bg img{
+    width:100%;
+    height:auto;
 }
 
 .goshare-wrapper .goshare-body{

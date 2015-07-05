@@ -4,10 +4,21 @@ define('', '', function(require) {
 	var H = require('text!../../../tpl/share/index.html');
     var comment_tpl = require('text!../../../tpl/share/view/comment.html');
 	var model = new M({
-		pars: {
-
-		}
+		action: 'weixin/shareDetail'
 	});
+//	var model2 = new M({
+//		pars: {
+//
+//		}
+//	});
+    var hash = window.location.hash.replace('#share/index/', '');
+    var _hash = {};
+            $.each(hash.split('/'), function(key, value){
+                if(value.indexOf(':')>=1){
+                    var _pars = value.split(':');
+                    _hash[_pars[0]] = _pars[1];
+                }
+            });
 	var V = B.View.extend({
 		model: model,
 		template: H,
@@ -34,10 +45,17 @@ define('', '', function(require) {
 				t.render();
 			});
 		},
+
         visit: function(e){
             var href = $(e.currentTarget).data("href");
+            var url = "weixin/ido";
             if(href){
-                window.location = href;
+                Jser.getJSON(ST.PATH.ACTION + url, {}, function(data) {
+                    window.location = href;
+				}, function() {
+
+				}, "post");
+
             }else{
                 this.showShare();
             }
@@ -67,19 +85,29 @@ define('', '', function(require) {
 		render: function() {
 			var t = this,
 				data = t.model.toJSON();
+            if(data.data.total){
+                data.data.rate = (data.data.finished?data.data.finished:0)/data.data.total * 100;
+            }
+            if(_hash.photo)data.data.photo = decodeURIComponent(_hash.photo);
 			var html = _.template(t.template, data);
 			t.$el.show().html(html);
             var _height = $('.js-wrapper').height() - 44;
             $('.goshare-body').css('height', _height + 'px');
+            if(data.data.rate!=undefined){
+                t.$el.find('.progress').css('width', data.data.rate + '%');
+            }
+
 		}
 	});
 	return function(pars) {
 		model.set({
-			action: 'favorite/favoriteMyList',
+			action: 'weixin/shareDetail',
             pars: {
-
+                "id": pars.id,
+                "userid": pars.userid
 		    }
 		});
+
 		return new V({
 			el: $("#" + pars.model + "_" + pars.action)
 		});
