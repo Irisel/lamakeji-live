@@ -2,6 +2,7 @@
 	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
     <span class="list-header-title">小宝的生日愿单</span>
 </div>
+<img id="img" src="resource/images/open.png" style="display:none;width:2240px;height:569px;">
 <div class="goshare-wrapper">
     <div class="goshare-bg">
         <img src="<%=data.picture%>">
@@ -16,7 +17,7 @@
                 </div>
             </div>
                 <div class="user-title">
-                    <div class="user-icon"></div><span>小萌</span>
+                    <div class="user-icon"></div><span><%=data.nickname%></span>
                 </div>
                 <div class="bar">
                     <div class="base"><div class="progress"><div class="percentage"><%=data.rate%></div></div></div>
@@ -38,25 +39,16 @@
                             <span><%=item.name%></span><span>¥<%=item.price%></span>
                         </div>
                         <div class="product-action">
-                            <div class="ibuy js-visit" data-href="<%=item.url%>">我来买</div><div class="advice js-advice" data-fid="<%=item.id%>">给建议<div class="advice-icon">1</div></div>
+                            <div class="ibuy js-visit" data-shareid="<%=data.id%>" data-status="<%=item.status%>" data-productid="<%=item.id%>" data-href="<%=item.url%>">我来买</div><div class="advice js-advice" data-fid="<%=item.id%>">给建议<div class="advice-icon">1</div></div>
                         </div>
                     </section>
                 </div>
                 <div class="comments comment-<%=item.id%>">
                         <div class="comment-notice js-notice" data-fid="<%=item.id%>">最新建议<span>(共1条)</span><i class="comment-drawer"></i></div>
                         <div class="js-container">
-                        <div class="goshare-comment">
-                            <div class="comment-head">
-                                <div><img src="http://lama.piapiapiapia.com/webapp/resource/images/xiaomeng.png"></div>
-                            </div>
-                            <div class="comment-desc">
-                                <div class="comment-rec"><span>kelly</span><span>一小时前</span></div>
-                                <div class="comment-op"><span>马路须加学园COS舞蹈♫~810夏日祭漫展表演【LoveMuses团】共3P</span></div>
-                            </div>
-                        </div>
                         </div>
                         <div class="goshare-input">
-                            <div class="comment-user js-user" data-fid="<%=item.id%>">
+                            <div class="comment-user js-user" data-fid="<%=item.id%>" data-shareid="<%=data.id%>">
                                 <div><img src="http://lama.piapiapiapia.com/webapp/resource/images/xiaomeng.png"></div>
                             </div>
                             <div class="comment-input">
@@ -68,27 +60,22 @@
             </div>
         </div>
         <div class="edge"></div>
+        <%if(data.claims.length>0){%>
         <div class="claims">
             <div class="claim-title"><hr><span>认领详情</span></div>
+            <%_.each(data.claims,function(item){%>
             <div class="claim">
                 <div class="claim-head">
-                    <div><img src="http://lama.piapiapiapia.com/webapp/resource/images/xiaomeng.png"></div>
+                    <div><img src="<%=item.photo%>"></div>
                 </div>
                 <div class="claim-desc">
-                    <div class="claim-rec"><span>kelly</span><span>一小时前</span></div>
-                    <div class="claim-op"><span>认领了宝马</span></div>
+                    <div class="claim-rec"><span><%=item.username%></span><span><%=item.update%></span></div>
+                    <div class="claim-op"><span>认领了<%=item.name%></span></div>
                 </div>
             </div>
-            <div class="claim">
-                <div class="claim-head">
-                    <div><img src="http://lama.piapiapiapia.com/webapp/resource/images/xiaomeng.png"></div>
-                </div>
-                <div class="claim-desc">
-                    <div class="claim-rec"><span>kelly</span><span>一小时前</span></div>
-                    <div class="claim-op"><span>认领了宝马</span></div>
-                </div>
-            </div>
+            <%})%>
         </div>
+        <%}%>
         <div class="goshare-download">
             <div>
                 <div class="goshare-container">

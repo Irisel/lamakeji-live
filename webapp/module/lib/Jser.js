@@ -87,7 +87,8 @@ window.Jser = {
             _data = data;
             _data.iTime = (new Date()).getTime();
         }
-        isload && $("#js-loading").show();
+        isload && $("#js-loading").show();;
+
         $("body").queue(function() {
             $.ajax({
                 type: method || "get",

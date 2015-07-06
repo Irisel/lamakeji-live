@@ -4,10 +4,10 @@
     <list default="true" id="5b21af73-2882-4996-bbde-172a2e5d82e9" name="Default" comment="" />
     <ignored path="lamakeji-live.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436081480702" ignored="false" />
+    <file path="/Dummy.txt" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436189252838" ignored="false" />
     <file path="/weixinshare.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1433002461135" ignored="false" />
-    <file path="/a.dummy" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436110928380" ignored="false" />
-    <file path="/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436113467963" ignored="false" />
+    <file path="/a.dummy" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436192600219" ignored="false" />
+    <file path="/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436202251794" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432629493785" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/css/main.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432556526937" ignored="false" />
     <file path="/main.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435231878692" ignored="false" />
@@ -20,9 +20,9 @@
     <file path="/main.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432131817628" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432630131534" ignored="false" />
     <file path="/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432132070022" ignored="false" />
-    <file path="/index.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436114882051" ignored="false" />
+    <file path="/index.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436203360743" ignored="false" />
     <file path="$PROJECT_DIR$/../baidu_news/baidu_news/js/pc.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432629954501" ignored="false" />
-    <file path="/Jser.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436088103762" ignored="false" />
+    <file path="/Jser.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436157872162" ignored="false" />
     <file path="/guanzhu.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1432737943982" ignored="false" />
     <file path="/single.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1433484125486" ignored="false" />
     <file path="/app.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436023084068" ignored="false" />
@@ -78,14 +78,16 @@
     <file path="$USER_HOME$/Desktop/jinkela/jinekela/works.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435233430667" ignored="false" />
     <file path="$USER_HOME$/Desktop/jinkela/jinekela/partners.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435233416376" ignored="false" />
     <file path="$PROJECT_DIR$/../flight/flight/flight/index.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435980994323" ignored="false" />
-    <file path="$PROJECT_DIR$/../flight/flight/flight/js/pc.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435828346998" ignored="false" />
-    <file path="$PROJECT_DIR$/../flight/flight/flight/js/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435828354660" ignored="false" />
-    <file path="/comment.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435770404048" ignored="false" />
+    <file path="$PROJECT_DIR$/../flight/flight/flight/js/pc.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436164117421" ignored="false" />
+    <file path="$PROJECT_DIR$/../flight/flight/flight/js/phone.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436164137310" ignored="false" />
+    <file path="/comment.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436162320634" ignored="false" />
     <file path="$PROJECT_DIR$/../flight/flight/flight/css/main.css" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435823943467" ignored="false" />
     <file path="$PROJECT_DIR$/../flight/flight/flight/js/main.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1435824159035" ignored="false" />
     <file path="/model.js" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436036384370" ignored="false" />
     <file path="$PROJECT_DIR$/../mmg/practice.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436112604712" ignored="false" />
     <file path="/practice.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436112577972" ignored="false" />
+    <file path="$PROJECT_DIR$/../mmg/animate.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436201658933" ignored="false" />
+    <file path="/animate.html" changelist="5b21af73-2882-4996-bbde-172a2e5d82e9" time="1436178127581" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +110,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/tpl/share/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="733" selection-end="733" vertical-scroll-proportion="14.698113">
-              <folding />
+            <state line="10" column="37" selection-start="438" selection-end="438" vertical-scroll-proportion="-3.5849056">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +121,16 @@
       <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/tpl/shangpin/view/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="222" selection-end="222" vertical-scroll-proportion="-3.392857">
+            <state line="4" column="69" selection-start="168" selection-end="168" vertical-scroll-proportion="-2.7142856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/tpl/share/view/comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="85" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.392857">
               <folding />
             </state>
           </provider>
@@ -126,7 +139,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/module/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="62" selection-start="5128" selection-end="5128" vertical-scroll-proportion="0.0">
+            <state line="125" column="25" selection-start="4040" selection-end="4040" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,7 +148,16 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/module/view/share/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="36" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.6280992">
+            <state line="125" column="27" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.68855536">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="0" selection-start="3397" selection-end="3397" vertical-scroll-proportion="-4.3962264">
               <folding />
             </state>
           </provider>
@@ -144,25 +166,7 @@
       <file leaf-file-name="Jser.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="21" selection-start="4067" selection-end="4067" vertical-scroll-proportion="-14.56">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/go/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="40" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="49" selection-start="2978" selection-end="3011" vertical-scroll-proportion="-8.56">
+            <state line="93" column="38" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,16 +175,7 @@
       <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/module/base/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="49" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/module/view/index/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="48" selection-start="4998" selection-end="5025" vertical-scroll-proportion="0.0">
+            <state line="11" column="24" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,21 +199,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/webapp/module/view/login/index.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/forget/index.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/sign/index.js" />
         <option value="$PROJECT_DIR$/webapp/tpl/go/share.html" />
         <option value="$PROJECT_DIR$/webapp/module/view/go/share.js" />
         <option value="$PROJECT_DIR$/webapp/tpl/list/index.html" />
         <option value="$PROJECT_DIR$/webapp/tpl/list/share.html" />
-        <option value="$PROJECT_DIR$/webapp/tpl/share/view/comment.html" />
-        <option value="$PROJECT_DIR$/webapp/index.html" />
         <option value="$PROJECT_DIR$/webapp/module/app.js" />
         <option value="$PROJECT_DIR$/webapp/module/view/go/index.js" />
         <option value="$PROJECT_DIR$/webapp/resource/css/code-index.css" />
         <option value="$PROJECT_DIR$/webapp/module/base/model.js" />
         <option value="$PROJECT_DIR$/webapp/module/lib/Jser.js" />
+        <option value="$PROJECT_DIR$/webapp/tpl/share/view/claim.html" />
+        <option value="$PROJECT_DIR$/webapp/tpl/share/view/comment.html" />
         <option value="$PROJECT_DIR$/webapp/tpl/share/index.html" />
+        <option value="$PROJECT_DIR$/webapp/index.html" />
         <option value="$PROJECT_DIR$/webapp/module/view/share/index.js" />
       </list>
     </option>
@@ -302,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,107 +315,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="share" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="share" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangpin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangpin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forget" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,258 +338,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="share" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangpin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="go" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="go" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lamakeji-live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,8 +353,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\share\view" />
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\resource\images" />
+      <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\share\view" />
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\forget" />
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\sign" />
       <recent name="E:\Ubuntu-64-a-developer\lamakeji-live\webapp\tpl\login" />
@@ -785,13 +432,13 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16351502" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3359288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29615796" sideWeight="0.83648497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17129135" sideWeight="0.6640712" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16351502" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3359288" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -865,46 +512,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="18" selection-start="1738" selection-end="1744" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/view/index/view/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/view/shangpin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/lib/single.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="39" selection-start="1697" selection-end="1711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="51" column="39" selection-start="1697" selection-end="1711" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/resource/css/code-index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3000" column="28" selection-start="50039" selection-end="50039" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3000" column="28" selection-start="50039" selection-end="50039" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/index/index.js">
@@ -921,41 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="62" selection-start="5128" selection-end="5128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="21" selection-start="4067" selection-end="4067" vertical-scroll-proportion="-14.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/module/base/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="49" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tpl/shangpin/view/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="222" selection-end="222" vertical-scroll-proportion="-3.392857">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/tpl/share/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="733" selection-end="733" vertical-scroll-proportion="14.698113">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/go/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="40" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
@@ -965,14 +545,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/list/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="49" selection-start="2978" selection-end="3011" vertical-scroll-proportion="-8.56">
+        <state line="93" column="49" selection-start="2978" selection-end="3011" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/base/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/lib/Jser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="38" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/module/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="25" selection-start="4040" selection-end="4040" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/tpl/comment/view/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="733" selection-end="739" vertical-scroll-proportion="0.73480666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/resource/images/open.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/tpl/share/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="438" selection-end="438" vertical-scroll-proportion="-3.5849056">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/tpl/share/view/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="85" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.392857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/tpl/shangpin/view/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="69" selection-start="168" selection-end="168" vertical-scroll-proportion="-2.7142856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="3397" selection-end="3397" vertical-scroll-proportion="-4.3962264">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/module/view/share/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="36" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.6280992">
+        <state line="125" column="27" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.68855536">
           <folding />
         </state>
       </provider>
