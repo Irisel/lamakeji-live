@@ -49,7 +49,8 @@ define('', '', function(require) {
 			var shareTitle = Jser.getItem("fid" + fid)+"－妈咪手袋";
 			// alert("fid:"+fid+",name:"+Jser.getItem("fid" + fid));
 			var descContent = "妈咪口袋";
-			var url = 'http://www.lamakeji.com/mamago/index.php/weixin/productShare?fid=' + fid + '&shareUserId=' + Jser.getItem("user_id") + '&tpid=4&topic=' + shareTitle + '&ftitle=' + descContent + '&from=singlemessage&isappinstalled=1';
+//			var url = 'http://www.lamakeji.com/mamago/index.php/weixin/productShare?fid=' + fid + '&shareUserId=' + Jser.getItem("user_id") + '&tpid=4&topic=' + shareTitle + '&ftitle=' + descContent + '&from=singlemessage&isappinstalled=1';
+            var url = 'http://www.lamakeji.com/webapp/#share/index/fid:'+ fid +'/userid:'+ Jser.getItem("user_id") +'/?share=true';
 			Jser.setshare({
 				imgUrl: "",
 				lineLink: url,

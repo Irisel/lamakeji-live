@@ -1,8 +1,3 @@
-<div class="header header-goshare">
-	<a href="javascript:;" class="btn-back js-back"><i class="icon"></i></a>
-    <span class="list-header-title">小宝的生日愿单</span>
-</div>
-<img id="img" src="resource/images/open.png" style="display:none;width:2240px;height:569px;">
 <div class="goshare-wrapper">
     <div class="goshare-bg">
         <img src="<%=data.picture%>">
@@ -20,36 +15,36 @@
                     <div class="user-icon"></div><span><%=data.nickname%></span>
                 </div>
                 <div class="bar">
-                    <div class="base"><div class="progress"><div class="percentage"><%=data.rate%></div></div></div>
+                    <div class="base"><div class="progress"><div class="percentage"><%=data.rate%>%</div></div></div>
                 </div>
             </div>
         </div>
         <div class="goshare-letters">
-            <span><i class="icon-horn"></i>哎唷，这么快就过半啦，时间不容犹豫，剩下的一半就靠你们啦～</span>
+            <span><i class="icon-horn"></i><%=data.letters%></span>
         </div>
         <div class="goshare-products">
             <div class="products">
                 <%_.each(data.product,function(item){%>
                 <div class="product-share">
-                   <div class="product-img">
+                   <div class="product-img js-jd" data-status="<%=item.status%>" data-href="<%=item.url%>">
                         <img src="<%=item.picture%>">
                     </div>
                     <section class="product-desc">
-                        <div class="product-info">
-                            <span><%=item.name%></span><span>¥<%=item.price%></span>
+                        <div class="product-info js-jd" data-status="<%=item.status%>" data-href="<%=item.url%>">
+                            <span class="product-name"><%=item.name%></span><span>¥<%=item.price%></span>
                         </div>
                         <div class="product-action">
-                            <div class="ibuy js-visit" data-shareid="<%=data.id%>" data-status="<%=item.status%>" data-productid="<%=item.id%>" data-href="<%=item.url%>">我来买</div><div class="advice js-advice" data-fid="<%=item.id%>">给建议<div class="advice-icon">1</div></div>
+                            <div class="ibuy js-visit" data-shareid="<%=data.id%>" data-status="<%=item.status%>" data-productid="<%=item.id%>" data-href="<%=item.url%>"><%if(!item.status){%>我来买<%}else{%>已认领<%}%></div><div class="advice js-advice" data-fid="<%=item.id%>">给建议<div class="advice-icon">1</div></div>
                         </div>
                     </section>
                 </div>
                 <div class="comments comment-<%=item.id%>">
-                        <div class="comment-notice js-notice" data-fid="<%=item.id%>">最新建议<span>(共1条)</span><i class="comment-drawer"></i></div>
+                        <div class="comment-notice js-notice" data-fid="<%=item.id%>">最新建议<span>(共<span class="js-count">0</span>条)</span><i class="comment-drawer"></i></div>
                         <div class="js-container">
                         </div>
                         <div class="goshare-input">
-                            <div class="comment-user js-user" data-fid="<%=item.id%>" data-shareid="<%=data.id%>">
-                                <div><img src="http://lama.piapiapiapia.com/webapp/resource/images/xiaomeng.png"></div>
+                            <div class="comment-send js-user" data-fid="<%=item.id%>" data-shareid="<%=data.id%>">
+                                <div>发送</div>
                             </div>
                             <div class="comment-input">
                                 <div><input type="text" name="comment" class="js-comment" placeholder="添加一条建议"/></div>

@@ -116,7 +116,7 @@ window.Jser = {
                         Jser.alert("与服务器连接异常，请重试");
                         return false;
                     }
-                    var s = Number(j.code || j.errorcode),
+                    var s = Number(j.code || (j.errorcode? i.errorcode: 0)),
                         flag = false;
                     if (typeof j.retcode != "undefined") {
                         s = 0;

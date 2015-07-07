@@ -254,6 +254,12 @@ textarea{
   bottom: 0;
   background-color:rgba(0,0,0,0.8);
 }
+
+.weixin_share canvas {
+  margin: 0 auto;
+  display: block;
+}
+
 .share{
  width: 100%;
  height: 100%;
@@ -3099,16 +3105,17 @@ iframe{
 
 .goshare-user .user-title {
     float:left;
-    font-size: 1.46em;
+    font-size: 20px;
+    line-height: 15px;
     color: #ffffff;
     position: relative;
-    top: -3px;
+    top: 2vw;
 }
 
 .goshare-user .user-icon {
-  background: url('../images/user.png') bottom center no-repeat;
+  background: url('../images/sharer.png') bottom center no-repeat;
   background-size: contain;
-  height: 24px;
+  height: 15px;
   width: 47px;
   display: inline-block;
   position: relative;
@@ -3217,12 +3224,13 @@ iframe{
 }
 
 .product-desc .product-info span{
-
-    display: block;
+    overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
     left: 3.623vw;
-
-    font-size: 1em;
-
+    font-size: 13px;
+    color: #545454;
     line-height: 23px;
 
 }
@@ -3240,7 +3248,7 @@ iframe{
     padding-left: 44.623vw;
 
     position: absolute;
-    bottom: 3.623vw;
+    bottom: 4px;
     width: 100%;
     padding-right: 3.623vw;
 }
@@ -3351,6 +3359,8 @@ iframe{
     width: 96vw;
     margin: 0 auto;
     padding: 11px;
+    font-size: 0.8em;
+    color: #1b1b1b;
 }
 
 .goshare-input{
@@ -3358,6 +3368,7 @@ iframe{
     margin: 0 auto;
     padding: 5px 11px;
     background-color: #e0e0e0;
+    position: relative;
 }
 
 .claims .claim .claim-head, .comment-head, .comment-user{
@@ -3365,6 +3376,17 @@ iframe{
     width: 60px;
     float: left;
     padding-top: 8px;
+}
+
+.comment-send{
+    height: 43px;
+    width: 60px;
+    padding-top: 8px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 2vw;
+    z-index: 10;
 }
 
 .claims .claim .claim-desc, .comment-desc{
@@ -3461,7 +3483,7 @@ iframe{
 }
 
 .comment-input div{
-    padding: 5px 0 5px 65px;
+    padding: 5px 65px 5px 0;
     height: 53px;
 }
 
@@ -3471,6 +3493,7 @@ iframe{
     background-color: #ffffff;
     border-radius: 2%;
     display: block;
+    text-indent: 1em;
 }
 
 .comment-notice{
@@ -3481,7 +3504,7 @@ iframe{
     border-bottom: 1px solid #cecece;
 }
 
-.comment-notice span{
+.comment-notice p, .comment-notice span{
     line-height: 22.6px;
 
     color: #e0e0e0;

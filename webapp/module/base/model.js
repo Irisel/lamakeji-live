@@ -42,7 +42,6 @@ define('base/model', '', function(require) {
                     // window.console && console.log(t.get("data"));
                 },
                 error: function(collection, rs) {
-                    console.log(res);
                     //alert("e");
                     t.set("erro", {
                         data: rs,
